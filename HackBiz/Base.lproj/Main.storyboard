@@ -53,6 +53,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mappa" id="Suq-0e-096"/>
+                    <connections>
+                        <outlet property="mapView" destination="dB4-40-uKS" id="WjO-gE-yRh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PpP-JB-0NM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

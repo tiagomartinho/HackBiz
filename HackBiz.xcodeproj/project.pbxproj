@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EAA417411DDB63AC005117FD /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA417401DDB63AC005117FD /* GPX.swift */; };
 		EAC27EA41DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */; };
+		EAC27EA61DDB69A80033BD7B /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC27EA51DDB69A80033BD7B /* MKGPX.swift */; };
 		EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE71DDB52840032FB67 /* AppDelegate.swift */; };
 		EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE91DDB52840032FB67 /* MapViewController.swift */; };
 		EAF00CED1DDB52840032FB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF00CEB1DDB52840032FB67 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		EAA417401DDB63AC005117FD /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-01-dal-gran-s-bernardo-echevennoz.gpx"; sourceTree = "<group>"; };
+		EAC27EA51DDB69A80033BD7B /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
 		EAF00CE41DDB52840032FB67 /* HackBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF00CE71DDB52840032FB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF00CE91DDB52840032FB67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EAC27EA71DDB69C80033BD7B /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				EAA417401DDB63AC005117FD /* GPX.swift */,
+				EAC27EA51DDB69A80033BD7B /* MKGPX.swift */,
+			);
+			name = GPX;
+			sourceTree = "<group>";
+		};
 		EAF00CDB1DDB52840032FB67 = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +130,7 @@
 				EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */,
 				EAF00CEB1DDB52840032FB67 /* Main.storyboard */,
 				EAF00CE91DDB52840032FB67 /* MapViewController.swift */,
-				EAA417401DDB63AC005117FD /* GPX.swift */,
+				EAC27EA71DDB69C80033BD7B /* GPX */,
 				EAA417421DDB648F005117FD /* Supporting Files */,
 			);
 			path = HackBiz;
@@ -295,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */,
+				EAC27EA61DDB69A80033BD7B /* MKGPX.swift in Sources */,
 				EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */,
 				EAA417411DDB63AC005117FD /* GPX.swift in Sources */,
 			);
