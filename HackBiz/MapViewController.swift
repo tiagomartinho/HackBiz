@@ -16,6 +16,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                     if gpx != nil {
                         var coordinates = [CLLocationCoordinate2D]()
                         if let first = gpx?.tracks.first {
+                            self.addWaypoints([first.fixes.first!])
                             for fixe in first.fixes {
                                 coordinates.append(fixe.coordinate)
                             }
@@ -45,5 +46,16 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             return lineView
         }
         return MKOverlayRenderer()
+    }
+
+    func addWaypoints(_ waypoints: [GPX.Waypoint]) {
+        mapView?.addAnnotations(waypoints)
+        mapView?.showAnnotations(waypoints, animated: true)
+    }
+
+    func selectWaypoint(_ waypoint: GPX.Waypoint?) {
+        if waypoint != nil {
+            mapView.selectAnnotation(waypoint!, animated: true)
+        }
     }
 }
