@@ -21,10 +21,10 @@
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="nSH-Wk-A2T" secondAttribute="trailing" id="DcM-Yc-vSf"/>
-                <constraint firstItem="nSH-Wk-A2T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LHA-QZ-mHI"/>
-                <constraint firstItem="nSH-Wk-A2T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="e9Z-ZT-Ady"/>
-                <constraint firstAttribute="bottom" secondItem="nSH-Wk-A2T" secondAttribute="bottom" id="haI-fQ-N7j"/>
+                <constraint firstAttribute="trailing" secondItem="nSH-Wk-A2T" secondAttribute="trailing" constant="7" id="DcM-Yc-vSf"/>
+                <constraint firstItem="nSH-Wk-A2T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="LHA-QZ-mHI"/>
+                <constraint firstItem="nSH-Wk-A2T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="e9Z-ZT-Ady"/>
+                <constraint firstAttribute="bottom" secondItem="nSH-Wk-A2T" secondAttribute="bottom" constant="3" id="haI-fQ-N7j"/>
             </constraints>
             <connections>
                 <outlet property="overlayImageView" destination="nSH-Wk-A2T" id="DdO-hO-Jj4"/>
