@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA417411DDB63AC005117FD /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA417401DDB63AC005117FD /* GPX.swift */; };
+		EAC27EA41DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */; };
 		EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE71DDB52840032FB67 /* AppDelegate.swift */; };
-		EAF00CEA1DDB52840032FB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE91DDB52840032FB67 /* ViewController.swift */; };
+		EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE91DDB52840032FB67 /* MapViewController.swift */; };
 		EAF00CED1DDB52840032FB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF00CEB1DDB52840032FB67 /* Main.storyboard */; };
 		EAF00CEF1DDB52840032FB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF00CEE1DDB52840032FB67 /* Assets.xcassets */; };
 		EAF00CF21DDB52840032FB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF00CF01DDB52840032FB67 /* LaunchScreen.storyboard */; };
 		EAF00CFD1DDB52850032FB67 /* HackBizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CFC1DDB52850032FB67 /* HackBizTests.swift */; };
 		EAF00D081DDB52850032FB67 /* HackBizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00D071DDB52850032FB67 /* HackBizUITests.swift */; };
+		EAF00D171DDB52910032FB67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF00D161DDB52910032FB67 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAA417401DDB63AC005117FD /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-01-dal-gran-s-bernardo-echevennoz.gpx"; sourceTree = "<group>"; };
 		EAF00CE41DDB52840032FB67 /* HackBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF00CE71DDB52840032FB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAF00CE91DDB52840032FB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAF00CE91DDB52840032FB67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EAF00CEC1DDB52840032FB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAF00CEE1DDB52840032FB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF00CF11DDB52840032FB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		EAF00D031DDB52850032FB67 /* HackBizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackBizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF00D071DDB52850032FB67 /* HackBizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackBizUITests.swift; sourceTree = "<group>"; };
 		EAF00D091DDB52850032FB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF00D161DDB52910032FB67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF00D171DDB52910032FB67 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAA417421DDB648F005117FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF00CE71DDB52840032FB67 /* AppDelegate.swift */,
+				EAF00CEE1DDB52840032FB67 /* Assets.xcassets */,
+				EAF00CF01DDB52840032FB67 /* LaunchScreen.storyboard */,
+				EAF00CF31DDB52840032FB67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		EAF00CDB1DDB52840032FB67 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,7 @@
 				EAF00CFB1DDB52850032FB67 /* HackBizTests */,
 				EAF00D061DDB52850032FB67 /* HackBizUITests */,
 				EAF00CE51DDB52840032FB67 /* Products */,
+				EAF00D151DDB52910032FB67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,11 @@
 		EAF00CE61DDB52840032FB67 /* HackBiz */ = {
 			isa = PBXGroup;
 			children = (
-				EAF00CE71DDB52840032FB67 /* AppDelegate.swift */,
-				EAF00CE91DDB52840032FB67 /* ViewController.swift */,
+				EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */,
 				EAF00CEB1DDB52840032FB67 /* Main.storyboard */,
-				EAF00CEE1DDB52840032FB67 /* Assets.xcassets */,
-				EAF00CF01DDB52840032FB67 /* LaunchScreen.storyboard */,
-				EAF00CF31DDB52840032FB67 /* Info.plist */,
+				EAF00CE91DDB52840032FB67 /* MapViewController.swift */,
+				EAA417401DDB63AC005117FD /* GPX.swift */,
+				EAA417421DDB648F005117FD /* Supporting Files */,
 			);
 			path = HackBiz;
 			sourceTree = "<group>";
@@ -123,6 +141,14 @@
 				EAF00D091DDB52850032FB67 /* Info.plist */,
 			);
 			path = HackBizUITests;
+			sourceTree = "<group>";
+		};
+		EAF00D151DDB52910032FB67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF00D161DDB52910032FB67 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +221,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 4C34FT6ABU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EAF00CF71DDB52850032FB67 = {
 						CreatedOnToolsVersion = 8.1;
@@ -238,6 +269,7 @@
 				EAF00CF21DDB52840032FB67 /* LaunchScreen.storyboard in Resources */,
 				EAF00CEF1DDB52840032FB67 /* Assets.xcassets in Resources */,
 				EAF00CED1DDB52840032FB67 /* Main.storyboard in Resources */,
+				EAC27EA41DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF00CEA1DDB52840032FB67 /* ViewController.swift in Sources */,
+				EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */,
 				EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */,
+				EAA417411DDB63AC005117FD /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +547,7 @@
 				EAF00D0E1DDB52850032FB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF00D0F1DDB52850032FB67 /* Build configuration list for PBXNativeTarget "HackBizTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +556,7 @@
 				EAF00D111DDB52850032FB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF00D121DDB52850032FB67 /* Build configuration list for PBXNativeTarget "HackBizUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +565,7 @@
 				EAF00D141DDB52850032FB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
