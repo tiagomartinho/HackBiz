@@ -58,4 +58,13 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             mapView.selectAnnotation(waypoint!, animated: true)
         }
     }
+
+    @IBAction func longPressGesture(_ sender: UILongPressGestureRecognizer) {
+        if sender.state == .began {
+            let touchPoint = sender.location(in: mapView)
+            let newCoordinates = mapView.convert(touchPoint, toCoordinateFrom: mapView)
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = newCoordinates
+        }
+    }
 }
