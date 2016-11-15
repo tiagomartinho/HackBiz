@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="-207.19999999999999" y="-571.66416791604206"/>
         </scene>
-        <!--Mean Of Travel Controller-->
+        <!--View Controller-->
         <scene sceneID="iVO-47-Vl9">
             <objects>
-                <viewController id="jzO-p2-YsF" customClass="MeanOfTravelController" customModule="HackBiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jzO-p2-YsF" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lcz-rZ-k84"/>
                         <viewControllerLayoutGuide type="bottom" id="bJ3-GN-7IP"/>
@@ -139,7 +139,6 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drI-dV-HXY">
                                                         <rect key="frame" x="0.0" y="73" width="167.5" height="30"/>
                                                         <connections>
-                                                            <action selector="walk:" destination="jzO-p2-YsF" eventType="touchUpInside" id="JXb-Z8-ddp"/>
                                                             <segue destination="P6n-qI-XRk" kind="presentation" id="I3D-dA-irt"/>
                                                         </connections>
                                                     </button>
@@ -175,7 +174,6 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ke-F0-ec6">
                                                         <rect key="frame" x="0.0" y="0.0" width="167.5" height="103"/>
                                                         <connections>
-                                                            <action selector="bycicle:" destination="jzO-p2-YsF" eventType="touchUpInside" id="bax-QI-J6B"/>
                                                             <segue destination="P6n-qI-XRk" kind="presentation" id="iHp-hD-K4g"/>
                                                         </connections>
                                                     </button>
