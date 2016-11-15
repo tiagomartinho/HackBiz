@@ -12,6 +12,8 @@
 		A9EE07CDAF5A64B67921F17A /* Pods_HackBizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB0D9D6591F5D26545C3C9 /* Pods_HackBizTests.framework */; };
 		EAA417411DDB63AC005117FD /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA417401DDB63AC005117FD /* GPX.swift */; };
 		EAA4E0691DDBAC4C008BFEC9 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4E0681DDBAC4C008BFEC9 /* ExploreViewController.swift */; };
+		EAA4E0701DDBCDBF008BFEC9 /* ExampleOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4E06F1DDBCDBF008BFEC9 /* ExampleOverlayView.xib */; };
+		EAA4E0721DDBCDD3008BFEC9 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4E0711DDBCDD3008BFEC9 /* ExampleOverlayView.swift */; };
 		EAC27EA61DDB69A80033BD7B /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC27EA51DDB69A80033BD7B /* MKGPX.swift */; };
 		EAC27EDF1DDB6D240033BD7B /* 1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EA91DDB6D240033BD7B /* 1.gpx */; };
 		EAC27EE01DDB6D240033BD7B /* 10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAA1DDB6D240033BD7B /* 10.gpx */; };
@@ -102,6 +104,8 @@
 		E65844482F662DE7CB797944 /* Pods-HackBizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackBizTests/Pods-HackBizTests.release.xcconfig"; sourceTree = "<group>"; };
 		EAA417401DDB63AC005117FD /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		EAA4E0681DDBAC4C008BFEC9 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		EAA4E06F1DDBCDBF008BFEC9 /* ExampleOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleOverlayView.xib; sourceTree = "<group>"; };
+		EAA4E0711DDBCDD3008BFEC9 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
 		EAC27EA51DDB69A80033BD7B /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
 		EAC27EA91DDB6D240033BD7B /* 1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1.gpx; sourceTree = "<group>"; };
 		EAC27EAA1DDB6D240033BD7B /* 10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 10.gpx; sourceTree = "<group>"; };
@@ -321,6 +325,8 @@
 				EAF00CEB1DDB52840032FB67 /* Main.storyboard */,
 				EAF00CE91DDB52840032FB67 /* MapViewController.swift */,
 				EAA4E0681DDBAC4C008BFEC9 /* ExploreViewController.swift */,
+				EAA4E06F1DDBCDBF008BFEC9 /* ExampleOverlayView.xib */,
+				EAA4E0711DDBCDD3008BFEC9 /* ExampleOverlayView.swift */,
 				EAC27EA71DDB69C80033BD7B /* GPX */,
 				EAA417421DDB648F005117FD /* Supporting Files */,
 			);
@@ -506,6 +512,7 @@
 				EAC27EFF1DDB6D240033BD7B /* 39.gpx in Resources */,
 				EAC27F051DDB6D240033BD7B /* 44.gpx in Resources */,
 				EAC27F0C1DDB6D240033BD7B /* tappa-19-variante-felegara.gpx in Resources */,
+				EAA4E0701DDBCDBF008BFEC9 /* ExampleOverlayView.xib in Resources */,
 				EAC27F0E1DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx in Resources */,
 				EAC27EE61DDB6D240033BD7B /* 16.gpx in Resources */,
 				EAC27F061DDB6D240033BD7B /* 5.gpx in Resources */,
@@ -713,6 +720,7 @@
 			files = (
 				EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */,
 				EAC27EA61DDB69A80033BD7B /* MKGPX.swift in Sources */,
+				EAA4E0721DDBCDD3008BFEC9 /* ExampleOverlayView.swift in Sources */,
 				EAA4E0691DDBAC4C008BFEC9 /* ExploreViewController.swift in Sources */,
 				EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */,
 				EAA417411DDB63AC005117FD /* GPX.swift in Sources */,

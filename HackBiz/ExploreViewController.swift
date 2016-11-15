@@ -13,7 +13,7 @@ class ExploreViewController: UIViewController{
                                                   longitude: 7.170561),CLLocationCoordinate2D(latitude: 45.869000,
                                                                                               longitude: 7.170561)]
         var array: [Place] = []
-        for index in 0..<2 {
+        for index in 0..<1 {
             let image = UIImage(named: "Card_like_\(index + 1)")!
             let place = Place(image: image,
                               link: links[index],
@@ -76,8 +76,8 @@ extension ExploreViewController: KolodaViewDataSource {
         return imageView
     }
 
-    func koloda(koloda: KolodaView, viewForCardOverlayAtIndex index: Int) -> OverlayView? {
-        return Bundle.main.loadNibNamed("OverlayView",
-                                                  owner: self, options: nil)?[0] as? OverlayView
+    func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
+        return Bundle.main.loadNibNamed("ExampleOverlayView",
+                                                  owner: self, options: nil)?[0] as? ExampleOverlayView
     }
 }
