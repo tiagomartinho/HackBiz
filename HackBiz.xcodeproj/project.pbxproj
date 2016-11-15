@@ -8,8 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		EAA417411DDB63AC005117FD /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA417401DDB63AC005117FD /* GPX.swift */; };
-		EAC27EA41DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */; };
 		EAC27EA61DDB69A80033BD7B /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC27EA51DDB69A80033BD7B /* MKGPX.swift */; };
+		EAC27EDF1DDB6D240033BD7B /* 1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EA91DDB6D240033BD7B /* 1.gpx */; };
+		EAC27EE01DDB6D240033BD7B /* 10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAA1DDB6D240033BD7B /* 10.gpx */; };
+		EAC27EE11DDB6D240033BD7B /* 11.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAB1DDB6D240033BD7B /* 11.gpx */; };
+		EAC27EE21DDB6D240033BD7B /* 12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAC1DDB6D240033BD7B /* 12.gpx */; };
+		EAC27EE31DDB6D240033BD7B /* 13.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAD1DDB6D240033BD7B /* 13.gpx */; };
+		EAC27EE41DDB6D240033BD7B /* 14.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAE1DDB6D240033BD7B /* 14.gpx */; };
+		EAC27EE51DDB6D240033BD7B /* 15.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EAF1DDB6D240033BD7B /* 15.gpx */; };
+		EAC27EE61DDB6D240033BD7B /* 16.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB01DDB6D240033BD7B /* 16.gpx */; };
+		EAC27EE71DDB6D240033BD7B /* 17.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB11DDB6D240033BD7B /* 17.gpx */; };
+		EAC27EE81DDB6D240033BD7B /* 18.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB21DDB6D240033BD7B /* 18.gpx */; };
+		EAC27EE91DDB6D240033BD7B /* 19.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB31DDB6D240033BD7B /* 19.gpx */; };
+		EAC27EEA1DDB6D240033BD7B /* 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB41DDB6D240033BD7B /* 2.gpx */; };
+		EAC27EEB1DDB6D240033BD7B /* 20.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB51DDB6D240033BD7B /* 20.gpx */; };
+		EAC27EEC1DDB6D240033BD7B /* 21.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB61DDB6D240033BD7B /* 21.gpx */; };
+		EAC27EED1DDB6D240033BD7B /* 22.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB71DDB6D240033BD7B /* 22.gpx */; };
+		EAC27EEE1DDB6D240033BD7B /* 23.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB81DDB6D240033BD7B /* 23.gpx */; };
+		EAC27EEF1DDB6D240033BD7B /* 24.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EB91DDB6D240033BD7B /* 24.gpx */; };
+		EAC27EF01DDB6D240033BD7B /* 25.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EBA1DDB6D240033BD7B /* 25.gpx */; };
+		EAC27EF11DDB6D240033BD7B /* 26.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EBB1DDB6D240033BD7B /* 26.gpx */; };
+		EAC27EF21DDB6D240033BD7B /* 27.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EBC1DDB6D240033BD7B /* 27.gpx */; };
+		EAC27EF31DDB6D240033BD7B /* 28.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EBD1DDB6D240033BD7B /* 28.gpx */; };
+		EAC27EF41DDB6D240033BD7B /* 29.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EBE1DDB6D240033BD7B /* 29.gpx */; };
+		EAC27EF51DDB6D240033BD7B /* 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EBF1DDB6D240033BD7B /* 3.gpx */; };
+		EAC27EF61DDB6D240033BD7B /* 30.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC01DDB6D240033BD7B /* 30.gpx */; };
+		EAC27EF71DDB6D240033BD7B /* 31.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC11DDB6D240033BD7B /* 31.gpx */; };
+		EAC27EF81DDB6D240033BD7B /* 32.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC21DDB6D240033BD7B /* 32.gpx */; };
+		EAC27EF91DDB6D240033BD7B /* 33.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC31DDB6D240033BD7B /* 33.gpx */; };
+		EAC27EFA1DDB6D240033BD7B /* 34.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC41DDB6D240033BD7B /* 34.gpx */; };
+		EAC27EFB1DDB6D240033BD7B /* 35.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC51DDB6D240033BD7B /* 35.gpx */; };
+		EAC27EFC1DDB6D240033BD7B /* 36.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC61DDB6D240033BD7B /* 36.gpx */; };
+		EAC27EFD1DDB6D240033BD7B /* 37.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC71DDB6D240033BD7B /* 37.gpx */; };
+		EAC27EFE1DDB6D240033BD7B /* 38.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC81DDB6D240033BD7B /* 38.gpx */; };
+		EAC27EFF1DDB6D240033BD7B /* 39.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EC91DDB6D240033BD7B /* 39.gpx */; };
+		EAC27F001DDB6D240033BD7B /* 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ECA1DDB6D240033BD7B /* 4.gpx */; };
+		EAC27F011DDB6D240033BD7B /* 40.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ECB1DDB6D240033BD7B /* 40.gpx */; };
+		EAC27F021DDB6D240033BD7B /* 41.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ECC1DDB6D240033BD7B /* 41.gpx */; };
+		EAC27F031DDB6D240033BD7B /* 42.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ECD1DDB6D240033BD7B /* 42.gpx */; };
+		EAC27F041DDB6D240033BD7B /* 43.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ECE1DDB6D240033BD7B /* 43.gpx */; };
+		EAC27F051DDB6D240033BD7B /* 44.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ECF1DDB6D240033BD7B /* 44.gpx */; };
+		EAC27F061DDB6D240033BD7B /* 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED01DDB6D240033BD7B /* 5.gpx */; };
+		EAC27F071DDB6D240033BD7B /* 6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED11DDB6D240033BD7B /* 6.gpx */; };
+		EAC27F081DDB6D240033BD7B /* 7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED21DDB6D240033BD7B /* 7.gpx */; };
+		EAC27F091DDB6D240033BD7B /* 8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED31DDB6D240033BD7B /* 8.gpx */; };
+		EAC27F0A1DDB6D240033BD7B /* 9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED41DDB6D240033BD7B /* 9.gpx */; };
+		EAC27F0B1DDB6D240033BD7B /* tappa-16-variante-oriolitta-piacenza.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED61DDB6D240033BD7B /* tappa-16-variante-oriolitta-piacenza.gpx */; };
+		EAC27F0C1DDB6D240033BD7B /* tappa-19-variante-felegara.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED71DDB6D240033BD7B /* tappa-19-variante-felegara.gpx */; };
+		EAC27F0D1DDB6D240033BD7B /* tappa-22-variante-1-ponte-civasola.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED81DDB6D240033BD7B /* tappa-22-variante-1-ponte-civasola.gpx */; };
+		EAC27F0E1DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27ED91DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx */; };
+		EAC27F0F1DDB6D240033BD7B /* tappa-36-variante-1-proceno.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDA1DDB6D240033BD7B /* tappa-36-variante-1-proceno.gpx */; };
+		EAC27F101DDB6D240033BD7B /* tappa-42-variante-uscita-sutri.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDB1DDB6D240033BD7B /* tappa-42-variante-uscita-sutri.gpx */; };
+		EAC27F111DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDC1DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX */; };
+		EAC27F121DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDD1DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX */; };
+		EAC27F131DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDE1DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX */; };
 		EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE71DDB52840032FB67 /* AppDelegate.swift */; };
 		EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE91DDB52840032FB67 /* MapViewController.swift */; };
 		EAF00CED1DDB52840032FB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF00CEB1DDB52840032FB67 /* Main.storyboard */; };
@@ -39,8 +91,60 @@
 
 /* Begin PBXFileReference section */
 		EAA417401DDB63AC005117FD /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
-		EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-01-dal-gran-s-bernardo-echevennoz.gpx"; sourceTree = "<group>"; };
 		EAC27EA51DDB69A80033BD7B /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
+		EAC27EA91DDB6D240033BD7B /* 1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1.gpx; sourceTree = "<group>"; };
+		EAC27EAA1DDB6D240033BD7B /* 10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 10.gpx; sourceTree = "<group>"; };
+		EAC27EAB1DDB6D240033BD7B /* 11.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 11.gpx; sourceTree = "<group>"; };
+		EAC27EAC1DDB6D240033BD7B /* 12.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 12.gpx; sourceTree = "<group>"; };
+		EAC27EAD1DDB6D240033BD7B /* 13.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 13.gpx; sourceTree = "<group>"; };
+		EAC27EAE1DDB6D240033BD7B /* 14.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 14.gpx; sourceTree = "<group>"; };
+		EAC27EAF1DDB6D240033BD7B /* 15.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 15.gpx; sourceTree = "<group>"; };
+		EAC27EB01DDB6D240033BD7B /* 16.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 16.gpx; sourceTree = "<group>"; };
+		EAC27EB11DDB6D240033BD7B /* 17.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 17.gpx; sourceTree = "<group>"; };
+		EAC27EB21DDB6D240033BD7B /* 18.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 18.gpx; sourceTree = "<group>"; };
+		EAC27EB31DDB6D240033BD7B /* 19.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 19.gpx; sourceTree = "<group>"; };
+		EAC27EB41DDB6D240033BD7B /* 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 2.gpx; sourceTree = "<group>"; };
+		EAC27EB51DDB6D240033BD7B /* 20.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 20.gpx; sourceTree = "<group>"; };
+		EAC27EB61DDB6D240033BD7B /* 21.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 21.gpx; sourceTree = "<group>"; };
+		EAC27EB71DDB6D240033BD7B /* 22.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 22.gpx; sourceTree = "<group>"; };
+		EAC27EB81DDB6D240033BD7B /* 23.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 23.gpx; sourceTree = "<group>"; };
+		EAC27EB91DDB6D240033BD7B /* 24.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 24.gpx; sourceTree = "<group>"; };
+		EAC27EBA1DDB6D240033BD7B /* 25.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 25.gpx; sourceTree = "<group>"; };
+		EAC27EBB1DDB6D240033BD7B /* 26.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 26.gpx; sourceTree = "<group>"; };
+		EAC27EBC1DDB6D240033BD7B /* 27.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 27.gpx; sourceTree = "<group>"; };
+		EAC27EBD1DDB6D240033BD7B /* 28.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 28.gpx; sourceTree = "<group>"; };
+		EAC27EBE1DDB6D240033BD7B /* 29.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 29.gpx; sourceTree = "<group>"; };
+		EAC27EBF1DDB6D240033BD7B /* 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3.gpx; sourceTree = "<group>"; };
+		EAC27EC01DDB6D240033BD7B /* 30.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 30.gpx; sourceTree = "<group>"; };
+		EAC27EC11DDB6D240033BD7B /* 31.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 31.gpx; sourceTree = "<group>"; };
+		EAC27EC21DDB6D240033BD7B /* 32.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 32.gpx; sourceTree = "<group>"; };
+		EAC27EC31DDB6D240033BD7B /* 33.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 33.gpx; sourceTree = "<group>"; };
+		EAC27EC41DDB6D240033BD7B /* 34.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 34.gpx; sourceTree = "<group>"; };
+		EAC27EC51DDB6D240033BD7B /* 35.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 35.gpx; sourceTree = "<group>"; };
+		EAC27EC61DDB6D240033BD7B /* 36.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 36.gpx; sourceTree = "<group>"; };
+		EAC27EC71DDB6D240033BD7B /* 37.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 37.gpx; sourceTree = "<group>"; };
+		EAC27EC81DDB6D240033BD7B /* 38.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 38.gpx; sourceTree = "<group>"; };
+		EAC27EC91DDB6D240033BD7B /* 39.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 39.gpx; sourceTree = "<group>"; };
+		EAC27ECA1DDB6D240033BD7B /* 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 4.gpx; sourceTree = "<group>"; };
+		EAC27ECB1DDB6D240033BD7B /* 40.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 40.gpx; sourceTree = "<group>"; };
+		EAC27ECC1DDB6D240033BD7B /* 41.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 41.gpx; sourceTree = "<group>"; };
+		EAC27ECD1DDB6D240033BD7B /* 42.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 42.gpx; sourceTree = "<group>"; };
+		EAC27ECE1DDB6D240033BD7B /* 43.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 43.gpx; sourceTree = "<group>"; };
+		EAC27ECF1DDB6D240033BD7B /* 44.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 44.gpx; sourceTree = "<group>"; };
+		EAC27ED01DDB6D240033BD7B /* 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 5.gpx; sourceTree = "<group>"; };
+		EAC27ED11DDB6D240033BD7B /* 6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 6.gpx; sourceTree = "<group>"; };
+		EAC27ED21DDB6D240033BD7B /* 7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 7.gpx; sourceTree = "<group>"; };
+		EAC27ED31DDB6D240033BD7B /* 8.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 8.gpx; sourceTree = "<group>"; };
+		EAC27ED41DDB6D240033BD7B /* 9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 9.gpx; sourceTree = "<group>"; };
+		EAC27ED61DDB6D240033BD7B /* tappa-16-variante-oriolitta-piacenza.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-16-variante-oriolitta-piacenza.gpx"; sourceTree = "<group>"; };
+		EAC27ED71DDB6D240033BD7B /* tappa-19-variante-felegara.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-19-variante-felegara.gpx"; sourceTree = "<group>"; };
+		EAC27ED81DDB6D240033BD7B /* tappa-22-variante-1-ponte-civasola.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-22-variante-1-ponte-civasola.gpx"; sourceTree = "<group>"; };
+		EAC27ED91DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-31-variante-alternativo-colle.gpx"; sourceTree = "<group>"; };
+		EAC27EDA1DDB6D240033BD7B /* tappa-36-variante-1-proceno.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-36-variante-1-proceno.gpx"; sourceTree = "<group>"; };
+		EAC27EDB1DDB6D240033BD7B /* tappa-42-variante-uscita-sutri.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-42-variante-uscita-sutri.gpx"; sourceTree = "<group>"; };
+		EAC27EDC1DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-43-variante1-Formello-IsolaFarnese.GPX"; sourceTree = "<group>"; };
+		EAC27EDD1DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX"; sourceTree = "<group>"; };
+		EAC27EDE1DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-7-8-Variante-Ivrea-Santhia.GPX"; sourceTree = "<group>"; };
 		EAF00CE41DDB52840032FB67 /* HackBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF00CE71DDB52840032FB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF00CE91DDB52840032FB67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +207,74 @@
 			name = GPX;
 			sourceTree = "<group>";
 		};
+		EAC27EA81DDB6D240033BD7B /* gpx */ = {
+			isa = PBXGroup;
+			children = (
+				EAC27EA91DDB6D240033BD7B /* 1.gpx */,
+				EAC27EAA1DDB6D240033BD7B /* 10.gpx */,
+				EAC27EAB1DDB6D240033BD7B /* 11.gpx */,
+				EAC27EAC1DDB6D240033BD7B /* 12.gpx */,
+				EAC27EAD1DDB6D240033BD7B /* 13.gpx */,
+				EAC27EAE1DDB6D240033BD7B /* 14.gpx */,
+				EAC27EAF1DDB6D240033BD7B /* 15.gpx */,
+				EAC27EB01DDB6D240033BD7B /* 16.gpx */,
+				EAC27EB11DDB6D240033BD7B /* 17.gpx */,
+				EAC27EB21DDB6D240033BD7B /* 18.gpx */,
+				EAC27EB31DDB6D240033BD7B /* 19.gpx */,
+				EAC27EB41DDB6D240033BD7B /* 2.gpx */,
+				EAC27EB51DDB6D240033BD7B /* 20.gpx */,
+				EAC27EB61DDB6D240033BD7B /* 21.gpx */,
+				EAC27EB71DDB6D240033BD7B /* 22.gpx */,
+				EAC27EB81DDB6D240033BD7B /* 23.gpx */,
+				EAC27EB91DDB6D240033BD7B /* 24.gpx */,
+				EAC27EBA1DDB6D240033BD7B /* 25.gpx */,
+				EAC27EBB1DDB6D240033BD7B /* 26.gpx */,
+				EAC27EBC1DDB6D240033BD7B /* 27.gpx */,
+				EAC27EBD1DDB6D240033BD7B /* 28.gpx */,
+				EAC27EBE1DDB6D240033BD7B /* 29.gpx */,
+				EAC27EBF1DDB6D240033BD7B /* 3.gpx */,
+				EAC27EC01DDB6D240033BD7B /* 30.gpx */,
+				EAC27EC11DDB6D240033BD7B /* 31.gpx */,
+				EAC27EC21DDB6D240033BD7B /* 32.gpx */,
+				EAC27EC31DDB6D240033BD7B /* 33.gpx */,
+				EAC27EC41DDB6D240033BD7B /* 34.gpx */,
+				EAC27EC51DDB6D240033BD7B /* 35.gpx */,
+				EAC27EC61DDB6D240033BD7B /* 36.gpx */,
+				EAC27EC71DDB6D240033BD7B /* 37.gpx */,
+				EAC27EC81DDB6D240033BD7B /* 38.gpx */,
+				EAC27EC91DDB6D240033BD7B /* 39.gpx */,
+				EAC27ECA1DDB6D240033BD7B /* 4.gpx */,
+				EAC27ECB1DDB6D240033BD7B /* 40.gpx */,
+				EAC27ECC1DDB6D240033BD7B /* 41.gpx */,
+				EAC27ECD1DDB6D240033BD7B /* 42.gpx */,
+				EAC27ECE1DDB6D240033BD7B /* 43.gpx */,
+				EAC27ECF1DDB6D240033BD7B /* 44.gpx */,
+				EAC27ED01DDB6D240033BD7B /* 5.gpx */,
+				EAC27ED11DDB6D240033BD7B /* 6.gpx */,
+				EAC27ED21DDB6D240033BD7B /* 7.gpx */,
+				EAC27ED31DDB6D240033BD7B /* 8.gpx */,
+				EAC27ED41DDB6D240033BD7B /* 9.gpx */,
+				EAC27ED51DDB6D240033BD7B /* variants */,
+			);
+			path = gpx;
+			sourceTree = "<group>";
+		};
+		EAC27ED51DDB6D240033BD7B /* variants */ = {
+			isa = PBXGroup;
+			children = (
+				EAC27ED61DDB6D240033BD7B /* tappa-16-variante-oriolitta-piacenza.gpx */,
+				EAC27ED71DDB6D240033BD7B /* tappa-19-variante-felegara.gpx */,
+				EAC27ED81DDB6D240033BD7B /* tappa-22-variante-1-ponte-civasola.gpx */,
+				EAC27ED91DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx */,
+				EAC27EDA1DDB6D240033BD7B /* tappa-36-variante-1-proceno.gpx */,
+				EAC27EDB1DDB6D240033BD7B /* tappa-42-variante-uscita-sutri.gpx */,
+				EAC27EDC1DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX */,
+				EAC27EDD1DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX */,
+				EAC27EDE1DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX */,
+			);
+			path = variants;
+			sourceTree = "<group>";
+		};
 		EAF00CDB1DDB52840032FB67 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +299,7 @@
 		EAF00CE61DDB52840032FB67 /* HackBiz */ = {
 			isa = PBXGroup;
 			children = (
-				EAC27EA31DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx */,
+				EAC27EA81DDB6D240033BD7B /* gpx */,
 				EAF00CEB1DDB52840032FB67 /* Main.storyboard */,
 				EAF00CE91DDB52840032FB67 /* MapViewController.swift */,
 				EAC27EA71DDB69C80033BD7B /* GPX */,
@@ -277,10 +449,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC27F021DDB6D240033BD7B /* 41.gpx in Resources */,
+				EAC27EF41DDB6D240033BD7B /* 29.gpx in Resources */,
+				EAC27EF31DDB6D240033BD7B /* 28.gpx in Resources */,
+				EAC27EF61DDB6D240033BD7B /* 30.gpx in Resources */,
+				EAC27EEE1DDB6D240033BD7B /* 23.gpx in Resources */,
+				EAC27F121DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX in Resources */,
+				EAC27F091DDB6D240033BD7B /* 8.gpx in Resources */,
+				EAC27EE71DDB6D240033BD7B /* 17.gpx in Resources */,
+				EAC27EE41DDB6D240033BD7B /* 14.gpx in Resources */,
 				EAF00CF21DDB52840032FB67 /* LaunchScreen.storyboard in Resources */,
+				EAC27EFF1DDB6D240033BD7B /* 39.gpx in Resources */,
+				EAC27F051DDB6D240033BD7B /* 44.gpx in Resources */,
+				EAC27F0C1DDB6D240033BD7B /* tappa-19-variante-felegara.gpx in Resources */,
+				EAC27F0E1DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx in Resources */,
+				EAC27EE61DDB6D240033BD7B /* 16.gpx in Resources */,
+				EAC27F061DDB6D240033BD7B /* 5.gpx in Resources */,
+				EAC27EEF1DDB6D240033BD7B /* 24.gpx in Resources */,
+				EAC27EEB1DDB6D240033BD7B /* 20.gpx in Resources */,
+				EAC27F101DDB6D240033BD7B /* tappa-42-variante-uscita-sutri.gpx in Resources */,
+				EAC27EFA1DDB6D240033BD7B /* 34.gpx in Resources */,
+				EAC27EEA1DDB6D240033BD7B /* 2.gpx in Resources */,
+				EAC27EF11DDB6D240033BD7B /* 26.gpx in Resources */,
+				EAC27EF91DDB6D240033BD7B /* 33.gpx in Resources */,
+				EAC27F0B1DDB6D240033BD7B /* tappa-16-variante-oriolitta-piacenza.gpx in Resources */,
+				EAC27EFE1DDB6D240033BD7B /* 38.gpx in Resources */,
+				EAC27F131DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX in Resources */,
+				EAC27EE11DDB6D240033BD7B /* 11.gpx in Resources */,
+				EAC27EF71DDB6D240033BD7B /* 31.gpx in Resources */,
+				EAC27EF51DDB6D240033BD7B /* 3.gpx in Resources */,
+				EAC27F041DDB6D240033BD7B /* 43.gpx in Resources */,
+				EAC27EFB1DDB6D240033BD7B /* 35.gpx in Resources */,
+				EAC27F0F1DDB6D240033BD7B /* tappa-36-variante-1-proceno.gpx in Resources */,
+				EAC27EE91DDB6D240033BD7B /* 19.gpx in Resources */,
+				EAC27EEC1DDB6D240033BD7B /* 21.gpx in Resources */,
+				EAC27F0A1DDB6D240033BD7B /* 9.gpx in Resources */,
+				EAC27EE31DDB6D240033BD7B /* 13.gpx in Resources */,
+				EAC27F111DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX in Resources */,
 				EAF00CEF1DDB52840032FB67 /* Assets.xcassets in Resources */,
+				EAC27EE01DDB6D240033BD7B /* 10.gpx in Resources */,
+				EAC27F031DDB6D240033BD7B /* 42.gpx in Resources */,
+				EAC27F0D1DDB6D240033BD7B /* tappa-22-variante-1-ponte-civasola.gpx in Resources */,
+				EAC27EF81DDB6D240033BD7B /* 32.gpx in Resources */,
+				EAC27F011DDB6D240033BD7B /* 40.gpx in Resources */,
+				EAC27EE81DDB6D240033BD7B /* 18.gpx in Resources */,
 				EAF00CED1DDB52840032FB67 /* Main.storyboard in Resources */,
-				EAC27EA41DDB65940033BD7B /* tappa-01-dal-gran-s-bernardo-echevennoz.gpx in Resources */,
+				EAC27EE51DDB6D240033BD7B /* 15.gpx in Resources */,
+				EAC27EFC1DDB6D240033BD7B /* 36.gpx in Resources */,
+				EAC27EF01DDB6D240033BD7B /* 25.gpx in Resources */,
+				EAC27EFD1DDB6D240033BD7B /* 37.gpx in Resources */,
+				EAC27F071DDB6D240033BD7B /* 6.gpx in Resources */,
+				EAC27EF21DDB6D240033BD7B /* 27.gpx in Resources */,
+				EAC27F001DDB6D240033BD7B /* 4.gpx in Resources */,
+				EAC27EED1DDB6D240033BD7B /* 22.gpx in Resources */,
+				EAC27EE21DDB6D240033BD7B /* 12.gpx in Resources */,
+				EAC27EDF1DDB6D240033BD7B /* 1.gpx in Resources */,
+				EAC27F081DDB6D240033BD7B /* 7.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,14 +32,16 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let urlpath = Bundle.main.path(forResource: "tappa-01-dal-gran-s-bernardo-echevennoz", ofType: "gpx")
-        gpxURL = NSURL.fileURL(withPath: urlpath!)
+        for i in 1...44 {
+            let urlpath = Bundle.main.path(forResource: "\(i)", ofType: "gpx")
+            gpxURL = NSURL.fileURL(withPath: urlpath!)
+        }
     }
 
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if overlay is MKPolyline {
             let lineView = MKPolylineRenderer(overlay: overlay)
-            lineView.strokeColor = UIColor.green
+            lineView.strokeColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
             return lineView
         }
         return MKOverlayRenderer()

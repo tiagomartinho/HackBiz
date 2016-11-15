@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="CompeGPS" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+  <metadata>
+    <link href="http://www.compegps.com">
+      <text>CompeGPS TEAM, SL</text>
+    </link>
+    <time>2016-04-06T07:29:39Z</time>
+    <bounds maxlat="44.741960" maxlon="10.131200" minlat="44.722570" minlon="10.118214"/>
+  </metadata>
+  <trk>
+    <name>tappa-19-variante-felegara</name>
+    <trkseg>
+      <trkpt lat="44.741960" lon="10.131200">
+        <ele>114.1</ele>
+      </trkpt>
+      <trkpt lat="44.741701" lon="10.130955">
+        <ele>115.0</ele>
+      </trkpt>
+      <trkpt lat="44.741302" lon="10.130668">
+        <ele>115.2</ele>
+      </trkpt>
+      <trkpt lat="44.740891" lon="10.130382">
+        <ele>114.9</ele>
+      </trkpt>
+      <trkpt lat="44.740624" lon="10.130238">
+        <ele>114.7</ele>
+      </trkpt>
+      <trkpt lat="44.740446" lon="10.130131">
+        <ele>114.5</ele>
+      </trkpt>
+      <trkpt lat="44.740277" lon="10.130137">
+        <ele>114.4</ele>
+      </trkpt>
+      <trkpt lat="44.740140" lon="10.130152">
+        <ele>114.4</ele>
+      </trkpt>
+      <trkpt lat="44.740048" lon="10.130175">
+        <ele>114.3</ele>
+      </trkpt>
+      <trkpt lat="44.739955" lon="10.130148">
+        <ele>114.5</ele>
+      </trkpt>
+      <trkpt lat="44.739887" lon="10.130073">
+        <ele>114.9</ele>
+      </trkpt>
+      <trkpt lat="44.739848" lon="10.130010">
+        <ele>115.3</ele>
+      </trkpt>
+      <trkpt lat="44.739672" lon="10.129806">
+        <ele>116.6</ele>
+      </trkpt>
+      <trkpt lat="44.739578" lon="10.129733">
+        <ele>117.1</ele>
+      </trkpt>
+      <trkpt lat="44.739456" lon="10.129691">
+        <ele>117.1</ele>
+      </trkpt>
+      <trkpt lat="44.739216" lon="10.129709">
+        <ele>116.4</ele>
+      </trkpt>
+      <trkpt lat="44.738999" lon="10.129745">
+        <ele>115.8</ele>
+      </trkpt>
+      <trkpt lat="44.738795" lon="10.129709">
+        <ele>115.5</ele>
+      </trkpt>
+      <trkpt lat="44.738622" lon="10.129601">
+        <ele>115.6</ele>
+      </trkpt>
+      <trkpt lat="44.738535" lon="10.129519">
+        <ele>115.6</ele>
+      </trkpt>
+      <trkpt lat="44.738352" lon="10.129350">
+        <ele>115.6</ele>
+      </trkpt>
+      <trkpt lat="44.738073" lon="10.129066">
+        <ele>116.0</ele>
+      </trkpt>
+      <trkpt lat="44.737885" lon="10.128879">
+        <ele>116.5</ele>
+      </trkpt>
+      <trkpt lat="44.737742" lon="10.128772">
+        <ele>116.5</ele>
+      </trkpt>
+      <trkpt lat="44.737443" lon="10.128628">
+        <ele>115.7</ele>
+      </trkpt>
+      <trkpt lat="44.737145" lon="10.128509">
+        <ele>115.1</ele>
+      </trkpt>
+      <trkpt lat="44.736359" lon="10.128165">
+        <ele>115.9</ele>
+      </trkpt>
+      <trkpt lat="44.735594" lon="10.127834">
+        <ele>114.4</ele>
+      </trkpt>
+      <trkpt lat="44.734712" lon="10.127454">
+        <ele>114.8</ele>
+      </trkpt>
+      <trkpt lat="44.734378" lon="10.127303">
+        <ele>114.8</ele>
+      </trkpt>
+      <trkpt lat="44.734002" lon="10.127098">
+        <ele>114.3</ele>
+      </trkpt>
+      <trkpt lat="44.731802" lon="10.125788">
+        <ele>117.5</ele>
+      </trkpt>
+      <trkpt lat="44.729388" lon="10.124168">
+        <ele>119.9</ele>
+      </trkpt>
+      <trkpt lat="44.728971" lon="10.123897">
+        <ele>121.0</ele>
+      </trkpt>
+      <trkpt lat="44.727802" lon="10.123082">
+        <ele>119.4</ele>
+      </trkpt>
+      <trkpt lat="44.727429" lon="10.122811">
+        <ele>118.4</ele>
+      </trkpt>
+      <trkpt lat="44.726918" lon="10.122294">
+        <ele>118.0</ele>
+      </trkpt>
+      <trkpt lat="44.726278" lon="10.121594">
+        <ele>119.6</ele>
+      </trkpt>
+      <trkpt lat="44.724766" lon="10.120000">
+        <ele>123.7</ele>
+      </trkpt>
+      <trkpt lat="44.724106" lon="10.119335">
+        <ele>125.0</ele>
+      </trkpt>
+      <trkpt lat="44.723341" lon="10.118722">
+        <ele>125.6</ele>
+      </trkpt>
+      <trkpt lat="44.722844" lon="10.118363">
+        <ele>126.0</ele>
+      </trkpt>
+      <trkpt lat="44.722570" lon="10.118214">
+        <ele>126.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
