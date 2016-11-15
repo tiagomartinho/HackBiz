@@ -16,7 +16,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                     if gpx != nil {
                         var coordinates = [CLLocationCoordinate2D]()
                         if let first = gpx?.tracks.first {
-                            self.addWaypoints([first.fixes.first!])
+//                            self.addWaypoints([first.fixes.first!])
                             for fixe in first.fixes {
                                 coordinates.append(fixe.coordinate)
                             }

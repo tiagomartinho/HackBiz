@@ -8,7 +8,8 @@ class ExploreViewController: UIViewController{
 
     var dataSource: [Place] = {
         var links = ["https://it.wikipedia.org/wiki/Museum_of_Fine_Arts_(Boston)"]
-        var coordinates = [CLLocationCoordinate2D(latitude: 43.2, longitude: 43.4)]
+        var coordinates = [CLLocationCoordinate2D(latitude: 45.869000,
+                                                  longitude: 7.170561)]
         var array: [Place] = []
         for index in 0..<1 {
             let image = UIImage(named: "Card_like_\(index + 1)")!
@@ -24,6 +25,14 @@ class ExploreViewController: UIViewController{
         super.viewDidLoad()
         kolodaView.dataSource = self
         kolodaView.delegate = self
+    }
+
+    @IBAction func addToJourney(_ sender: Any) {
+        kolodaView.swipe(SwipeResultDirection.right)
+    }
+
+    @IBAction func ignore(_ sender: Any) {
+        kolodaView.swipe(SwipeResultDirection.left)
     }
 }
 
