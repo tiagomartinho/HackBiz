@@ -33,9 +33,11 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        for i in 1...44 {
-            let urlpath = Bundle.main.path(forResource: "\(i)", ofType: "gpx")
-            gpxURL = NSURL.fileURL(withPath: urlpath!)
+        DispatchQueue.global(qos: .background).async {
+            for i in 1...44 {
+                let urlpath = Bundle.main.path(forResource: "\(i)", ofType: "gpx")
+                self.gpxURL = NSURL.fileURL(withPath: urlpath!)
+            }
         }
     }
 
