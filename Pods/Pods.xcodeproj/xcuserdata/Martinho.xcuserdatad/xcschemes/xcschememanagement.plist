@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Koloda.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HackBiz.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HackBizTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HackBizUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>20151774CE2F5FA6B8126D4F5ED1C5FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FAD10726BF8EC9AF2E39E131E60CB16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BDD0E42347ED8EDEA19928B85B79254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A407D6D1DA40402E799C8AEACA1B22E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC5B1936AAB9B2CAEFE95F6FB29626F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

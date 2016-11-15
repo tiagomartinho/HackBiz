@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EAF00CE31DDB52840032FB67"
-               BuildableName = "HackBiz.app"
+               BuildableName = "FrancigenR.app"
                BlueprintName = "HackBiz"
                ReferencedContainer = "container:HackBiz.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF00CE31DDB52840032FB67"
-            BuildableName = "HackBiz.app"
+            BuildableName = "FrancigenR.app"
             BlueprintName = "HackBiz"
             ReferencedContainer = "container:HackBiz.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF00CE31DDB52840032FB67"
-            BuildableName = "HackBiz.app"
+            BuildableName = "FrancigenR.app"
             BlueprintName = "HackBiz"
             ReferencedContainer = "container:HackBiz.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF00CE31DDB52840032FB67"
-            BuildableName = "HackBiz.app"
+            BuildableName = "FrancigenR.app"
             BlueprintName = "HackBiz"
             ReferencedContainer = "container:HackBiz.xcodeproj">
          </BuildableReference>

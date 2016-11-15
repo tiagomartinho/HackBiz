@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jzO-p2-YsF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1m6-bG-UVr">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Esplora-->
         <scene sceneID="KwM-d7-8wI">
             <objects>
-                <viewController id="1m6-bG-UVr" sceneMemberID="viewController">
+                <viewController id="1m6-bG-UVr" customClass="ExploreViewController" customModule="FrancigenR" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8wF-42-bn3"/>
                         <viewControllerLayoutGuide type="bottom" id="F2W-ch-iTA"/>
@@ -21,9 +21,24 @@
                     <view key="view" contentMode="scaleToFill" id="b08-nh-SaJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJY-bu-NnT" customClass="KolodaView" customModule="Koloda">
+                                <rect key="frame" x="16" y="20" width="343" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LJY-bu-NnT" firstAttribute="bottom" secondItem="F2W-ch-iTA" secondAttribute="top" id="Ewv-Bm-jpl"/>
+                            <constraint firstItem="LJY-bu-NnT" firstAttribute="leading" secondItem="b08-nh-SaJ" secondAttribute="leadingMargin" id="ZDe-86-zsh"/>
+                            <constraint firstItem="LJY-bu-NnT" firstAttribute="top" secondItem="8wF-42-bn3" secondAttribute="bottom" id="qts-rD-esb"/>
+                            <constraint firstItem="LJY-bu-NnT" firstAttribute="trailing" secondItem="b08-nh-SaJ" secondAttribute="trailingMargin" id="sHd-DE-5D8"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="faj-2S-3U3"/>
+                    <tabBarItem key="tabBarItem" title="Esplora" id="faj-2S-3U3"/>
+                    <connections>
+                        <outlet property="kolodaView" destination="LJY-bu-NnT" id="U3o-zi-Qsw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mg0-tG-loo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
