@@ -8,11 +8,12 @@ class ExploreViewController: UIViewController{
     @IBOutlet weak var kolodaView: KolodaView!
 
     var dataSource: [Place] = {
-        var links = ["https://it.wikipedia.org/wiki/Museum_of_Fine_Arts_(Boston)"]
+        var links = ["https://it.wikipedia.org/wiki/Museum_of_Fine_Arts_(Boston)", "https://it.wikipedia.org/wiki/Museum_of_Fine_Arts_(Boston)"]
         var coordinates = [CLLocationCoordinate2D(latitude: 45.869000,
-                                                  longitude: 7.170561)]
+                                                  longitude: 7.170561),CLLocationCoordinate2D(latitude: 45.869000,
+                                                                                              longitude: 7.170561)]
         var array: [Place] = []
-        for index in 0..<1 {
+        for index in 0..<2 {
             let image = UIImage(named: "Card_like_\(index + 1)")!
             let place = Place(image: image,
                               link: links[index],
@@ -44,7 +45,8 @@ struct Place {
 }
 
 extension ExploreViewController: KolodaViewDelegate {
-    func kolodaDidRunOutOfCards(koloda: KolodaView) {
+    func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
+        kolodaView.resetCurrentCardIndex()
     }
 
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
