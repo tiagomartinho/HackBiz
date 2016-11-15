@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZHa-gh-HRE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jzO-p2-YsF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -27,7 +27,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mg0-tG-loo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-206" y="84"/>
+            <point key="canvasLocation" x="999" y="1131"/>
         </scene>
         <!--Mappa-->
         <scene sceneID="a4r-ez-2x0">
@@ -68,7 +68,7 @@
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-207.19999999999999" y="-571.66416791604206"/>
+            <point key="canvasLocation" x="999" y="476"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iVO-47-Vl9">
@@ -85,7 +85,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Fjv-R3-kJa">
                                 <rect key="frame" x="20" y="28" width="335" height="619"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quando vuoi partire?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hE-Rt-nG6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quando vuoi partire?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hE-Rt-nG6">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="103"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -97,7 +97,7 @@
                                             <!--2016-11-15 18:09:39 +0000-->
                                         </date>
                                     </datePicker>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quando vuoi tornare?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieH-p5-x21">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quando vuoi tornare?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieH-p5-x21">
                                         <rect key="frame" x="0.0" y="206.5" width="335" height="103"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -109,7 +109,7 @@
                                             <!--2016-11-15 18:09:39 +0000-->
                                         </date>
                                     </datePicker>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Come vuoi viaggiare?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWf-B2-Nq4">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Come vuoi viaggiare?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWf-B2-Nq4">
                                         <rect key="frame" x="0.0" y="412.5" width="335" height="103.5"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -140,7 +140,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drI-dV-HXY">
                                                         <rect key="frame" x="0.0" y="73" width="167.5" height="30"/>
                                                         <connections>
-                                                            <segue destination="P6n-qI-XRk" kind="presentation" id="I3D-dA-irt"/>
+                                                            <segue destination="wrh-wR-dwS" kind="show" action="showDetailViewController:sender:" id="umd-Db-IZa"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -175,7 +175,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ke-F0-ec6">
                                                         <rect key="frame" x="0.0" y="0.0" width="167.5" height="103"/>
                                                         <connections>
-                                                            <segue destination="P6n-qI-XRk" kind="presentation" id="iHp-hD-K4g"/>
+                                                            <segue destination="wrh-wR-dwS" kind="show" action="showDetailViewController:sender:" id="WOU-PB-QQ2"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -207,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63z-ZP-txh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2226.4000000000001" y="-243.32833583208398"/>
+            <point key="canvasLocation" x="-3473" y="804"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Mh8-9F-Bji">
@@ -221,7 +221,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quanto sei attivo?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Z-Yc-Ew1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quanto sei attivo?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Z-Yc-Ew1">
                                 <rect key="frame" x="16" y="40" width="343" height="33.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
@@ -236,10 +236,16 @@
                                 <state key="normal" title="Prossimo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="q9v-tc-0f6" kind="showDetail" id="6ws-Oo-WT5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1n-3M-FOy">
                                 <rect key="frame" x="170" y="549" width="35" height="30"/>
                                 <state key="normal" title="Salta"/>
+                                <connections>
+                                    <segue destination="P6n-qI-XRk" kind="presentation" id="h0i-OJ-lII"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Pt7-Mf-HKi">
                                 <rect key="frame" x="14" y="318" width="347" height="31"/>
@@ -297,7 +303,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quanto vuoi spendere?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcA-Cm-hZb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quanto vuoi spendere?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcA-Cm-hZb">
                                 <rect key="frame" x="16" y="40" width="343" height="33.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
@@ -312,10 +318,16 @@
                                 <state key="normal" title="Prossimo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZHa-gh-HRE" kind="presentation" id="lME-Fp-IIA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPb-tg-XCa">
                                 <rect key="frame" x="170" y="549" width="35" height="30"/>
                                 <state key="normal" title="Salta"/>
+                                <connections>
+                                    <segue destination="P6n-qI-XRk" kind="presentation" id="ThP-w0-uEs"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lxv-gN-zkc">
                                 <rect key="frame" x="14" y="318" width="347" height="31"/>
@@ -373,7 +385,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Che tipo di conforto cerchi?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKH-tA-JE4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Che tipo di conforto cerchi?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKH-tA-JE4">
                                 <rect key="frame" x="16" y="40" width="343" height="33.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
@@ -388,10 +400,9 @@
                                 <state key="normal" title="Prossimo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnz-A0-FN8">
-                                <rect key="frame" x="170" y="549" width="35" height="30"/>
-                                <state key="normal" title="Salta"/>
+                                <connections>
+                                    <segue destination="P6n-qI-XRk" kind="presentation" id="gZY-ec-nAy"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="APF-yz-1Km">
                                 <rect key="frame" x="14" y="318" width="347" height="31"/>
@@ -418,8 +429,6 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Q90-Ot-Kgs" secondAttribute="trailing" id="23P-NX-rUG"/>
                             <constraint firstItem="NKH-tA-JE4" firstAttribute="top" secondItem="wcw-Zy-tIr" secondAttribute="bottom" constant="20" id="8Cz-3L-Rcz"/>
-                            <constraint firstItem="gnz-A0-FN8" firstAttribute="centerX" secondItem="epx-md-ESy" secondAttribute="centerX" id="GVb-DT-rzf"/>
-                            <constraint firstItem="Q90-Ot-Kgs" firstAttribute="top" secondItem="gnz-A0-FN8" secondAttribute="bottom" constant="8" id="JXq-pn-s6j"/>
                             <constraint firstAttribute="trailing" secondItem="6ey-Qv-eIF" secondAttribute="trailing" constant="20" symbolic="YES" id="VlS-Ce-471"/>
                             <constraint firstItem="APF-yz-1Km" firstAttribute="leading" secondItem="epx-md-ESy" secondAttribute="leadingMargin" id="WOg-V4-Gv8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="APF-yz-1Km" secondAttribute="trailing" id="Yff-Am-cbA"/>
@@ -453,7 +462,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WAE-X3-rqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1158" y="-243"/>
+            <point key="canvasLocation" x="47" y="805"/>
         </scene>
     </scenes>
     <resources>
@@ -467,6 +476,7 @@
         <image name="weight2" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="I3D-dA-irt"/>
+        <segue reference="WOU-PB-QQ2"/>
+        <segue reference="ThP-w0-uEs"/>
     </inferredMetricsTieBreakers>
 </document>
