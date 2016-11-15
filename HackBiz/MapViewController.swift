@@ -52,7 +52,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     func addWaypoints(_ waypoints: [GPX.Waypoint]) {
         mapView?.addAnnotations(waypoints)
-        mapView?.showAnnotations(waypoints, animated: true)
     }
 
     func selectWaypoint(_ waypoint: GPX.Waypoint?) {
