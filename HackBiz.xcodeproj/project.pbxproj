@@ -145,7 +145,7 @@
 		EAC27EDC1DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-43-variante1-Formello-IsolaFarnese.GPX"; sourceTree = "<group>"; };
 		EAC27EDD1DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX"; sourceTree = "<group>"; };
 		EAC27EDE1DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-7-8-Variante-Ivrea-Santhia.GPX"; sourceTree = "<group>"; };
-		EAF00CE41DDB52840032FB67 /* HackBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF00CE41DDB52840032FB67 /* FrancigenR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrancigenR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF00CE71DDB52840032FB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF00CE91DDB52840032FB67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EAF00CEC1DDB52840032FB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 		EAF00CE51DDB52840032FB67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAF00CE41DDB52840032FB67 /* HackBiz.app */,
+				EAF00CE41DDB52840032FB67 /* FrancigenR.app */,
 				EAF00CF81DDB52850032FB67 /* HackBizTests.xctest */,
 				EAF00D031DDB52850032FB67 /* HackBizUITests.xctest */,
 			);
@@ -351,7 +351,7 @@
 			);
 			name = HackBiz;
 			productName = HackBiz;
-			productReference = EAF00CE41DDB52840032FB67 /* HackBiz.app */;
+			productReference = EAF00CE41DDB52840032FB67 /* FrancigenR.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EAF00CF71DDB52850032FB67 /* HackBizTests */ = {
@@ -688,7 +688,7 @@
 				INFOPLIST_FILE = HackBiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elit.HackBiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FrancigenR;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -701,7 +701,7 @@
 				INFOPLIST_FILE = HackBiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elit.HackBiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FrancigenR;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
