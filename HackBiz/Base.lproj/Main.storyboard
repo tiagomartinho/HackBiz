@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P6n-qI-XRk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bqH-26-aZI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -106,6 +108,67 @@
                 </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1936.8" y="475.41229385307349"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oCe-Lk-rWS">
+            <objects>
+                <viewController id="bqH-26-aZI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Emg-Wj-YHy"/>
+                        <viewControllerLayoutGuide type="bottom" id="rQ8-8O-5SD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="crm-ff-UYh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Log in" translatesAutoresizingMaskIntoConstraints="NO" id="uWc-3c-mCe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="260" verticalCompressionResistancePriority="800" image="Logo_FR" translatesAutoresizingMaskIntoConstraints="NO" id="0yR-QG-Rb1">
+                                <rect key="frame" x="120" y="267" width="134" height="133.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0yR-QG-Rb1" secondAttribute="height" multiplier="1:1" id="gZk-OC-9H9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan you experience based on your tastes and connect with like-minded travellers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui7-Jl-TzB">
+                                <rect key="frame" x="16" y="408.5" width="343" height="175.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ts2-Hj-Xtt">
+                                <rect key="frame" x="20" y="592" width="335" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="XO3-1T-IVj"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="facebook"/>
+                                <connections>
+                                    <segue destination="jzO-p2-YsF" kind="presentation" id="KqY-1u-lbt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uWc-3c-mCe" secondAttribute="trailing" id="6EF-BA-Mmt"/>
+                            <constraint firstItem="0yR-QG-Rb1" firstAttribute="centerY" secondItem="crm-ff-UYh" secondAttribute="centerY" id="DIC-Tx-8j8"/>
+                            <constraint firstItem="uWc-3c-mCe" firstAttribute="top" secondItem="crm-ff-UYh" secondAttribute="top" id="HgL-r8-Z0p"/>
+                            <constraint firstItem="Ts2-Hj-Xtt" firstAttribute="top" secondItem="Ui7-Jl-TzB" secondAttribute="bottom" constant="8" symbolic="YES" id="II6-Vy-hJG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ui7-Jl-TzB" secondAttribute="trailing" id="LVJ-73-4sg"/>
+                            <constraint firstAttribute="trailing" secondItem="Ts2-Hj-Xtt" secondAttribute="trailing" constant="20" symbolic="YES" id="YF4-Zv-lWj"/>
+                            <constraint firstItem="Ui7-Jl-TzB" firstAttribute="leading" secondItem="crm-ff-UYh" secondAttribute="leadingMargin" id="jho-oa-sxH"/>
+                            <constraint firstItem="rQ8-8O-5SD" firstAttribute="top" secondItem="uWc-3c-mCe" secondAttribute="bottom" id="m1U-xS-Zlq"/>
+                            <constraint firstItem="uWc-3c-mCe" firstAttribute="leading" secondItem="crm-ff-UYh" secondAttribute="leading" id="n2Q-1H-QPE"/>
+                            <constraint firstItem="0yR-QG-Rb1" firstAttribute="height" secondItem="crm-ff-UYh" secondAttribute="height" multiplier="1/5" id="njC-eF-pm2"/>
+                            <constraint firstItem="Ui7-Jl-TzB" firstAttribute="top" secondItem="0yR-QG-Rb1" secondAttribute="bottom" constant="8" symbolic="YES" id="rlL-ii-GM1"/>
+                            <constraint firstItem="0yR-QG-Rb1" firstAttribute="centerX" secondItem="crm-ff-UYh" secondAttribute="centerX" id="vB8-IC-fGs"/>
+                            <constraint firstItem="Ts2-Hj-Xtt" firstAttribute="leading" secondItem="crm-ff-UYh" secondAttribute="leading" constant="20" symbolic="YES" id="vQz-yx-Hgm"/>
+                            <constraint firstAttribute="bottom" secondItem="Ts2-Hj-Xtt" secondAttribute="bottom" constant="20" symbolic="YES" id="ysk-yc-LZ2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esX-kn-nFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3359.1999999999998" y="804.64767616191909"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iVO-47-Vl9">
@@ -505,9 +568,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Log in" width="375" height="667"/>
+        <image name="Logo_FR" width="1024" height="1024"/>
         <image name="bycicle" width="256" height="256"/>
         <image name="camping" width="128" height="128"/>
         <image name="compass" width="25" height="25"/>
+        <image name="facebook" width="1334" height="209"/>
         <image name="hotel" width="128" height="128"/>
         <image name="map" width="25" height="25"/>
         <image name="money" width="128" height="128"/>
