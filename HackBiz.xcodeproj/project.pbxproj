@@ -62,6 +62,7 @@
 		EAC27F111DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDC1DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX */; };
 		EAC27F121DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDD1DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX */; };
 		EAC27F131DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX in Resources */ = {isa = PBXBuildFile; fileRef = EAC27EDE1DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX */; };
+		EAC27F1B1DDB82B30033BD7B /* MeanOfTravelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC27F1A1DDB82B30033BD7B /* MeanOfTravelController.swift */; };
 		EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE71DDB52840032FB67 /* AppDelegate.swift */; };
 		EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CE91DDB52840032FB67 /* MapViewController.swift */; };
 		EAF00CED1DDB52840032FB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF00CEB1DDB52840032FB67 /* Main.storyboard */; };
@@ -145,6 +146,7 @@
 		EAC27EDC1DDB6D240033BD7B /* tappa-43-variante1-Formello-IsolaFarnese.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-43-variante1-Formello-IsolaFarnese.GPX"; sourceTree = "<group>"; };
 		EAC27EDD1DDB6D240033BD7B /* tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-43-variante2-ValleSorbo-IsolaFarnese.GPX"; sourceTree = "<group>"; };
 		EAC27EDE1DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tappa-7-8-Variante-Ivrea-Santhia.GPX"; sourceTree = "<group>"; };
+		EAC27F1A1DDB82B30033BD7B /* MeanOfTravelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeanOfTravelController.swift; sourceTree = "<group>"; };
 		EAF00CE41DDB52840032FB67 /* HackBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF00CE71DDB52840032FB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF00CE91DDB52840032FB67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				EAC27EA81DDB6D240033BD7B /* gpx */,
 				EAF00CEB1DDB52840032FB67 /* Main.storyboard */,
 				EAF00CE91DDB52840032FB67 /* MapViewController.swift */,
+				EAC27F1A1DDB82B30033BD7B /* MeanOfTravelController.swift */,
 				EAC27EA71DDB69C80033BD7B /* GPX */,
 				EAA417421DDB648F005117FD /* Supporting Files */,
 			);
@@ -530,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF00CEA1DDB52840032FB67 /* MapViewController.swift in Sources */,
+				EAC27F1B1DDB82B30033BD7B /* MeanOfTravelController.swift in Sources */,
 				EAC27EA61DDB69A80033BD7B /* MKGPX.swift in Sources */,
 				EAF00CE81DDB52840032FB67 /* AppDelegate.swift in Sources */,
 				EAA417411DDB63AC005117FD /* GPX.swift in Sources */,
