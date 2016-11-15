@@ -399,13 +399,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="6ey-Qv-eIF">
                                 <rect key="frame" x="20" y="210" width="335" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="money" translatesAutoresizingMaskIntoConstraints="NO" id="TyY-BX-6WJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camping" translatesAutoresizingMaskIntoConstraints="NO" id="TyY-BX-6WJ">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="100"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WHV-Ak-AzE">
                                         <rect key="frame" x="125" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="money2" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-1C-pQS">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotel" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-1C-pQS">
                                         <rect key="frame" x="250" y="0.0" width="85" height="100"/>
                                     </imageView>
                                 </subviews>
@@ -458,6 +458,8 @@
     </scenes>
     <resources>
         <image name="bycicle" width="256" height="256"/>
+        <image name="camping" width="128" height="128"/>
+        <image name="hotel" width="128" height="128"/>
         <image name="money" width="128" height="128"/>
         <image name="money2" width="128" height="128"/>
         <image name="pedestrian" width="256" height="256"/>
