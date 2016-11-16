@@ -48,9 +48,11 @@ class ExploreViewController: UIViewController{
         var array: [Place] = []
         for index in 0..<8 {
             let image = UIImage(named: "\(index + 1)")!
+            let smallImage = UIImage(named: "\(index + 1)small")!
             let place = Place(name: names[index],
                               subtitle: descriptions[index],
                               image: image,
+                              smallImage: smallImage,
                               link: links[index],
                               coordinate: coordinates[index])
             array.append(place)
@@ -77,13 +79,15 @@ class Place: NSObject {
     let name: String
     let subtitle: String?
     let image: UIImage
+    let smallImage: UIImage
     let link: String
     var coordinate: CLLocationCoordinate2D
 
-    init(name: String, subtitle: String, image: UIImage, link: String, coordinate: CLLocationCoordinate2D) {
+    init(name: String, subtitle: String, image: UIImage, smallImage: UIImage, link: String, coordinate: CLLocationCoordinate2D) {
         self.name = name
         self.subtitle = subtitle
         self.image = image
+        self.smallImage = smallImage
         self.link = link
         self.coordinate = coordinate
     }

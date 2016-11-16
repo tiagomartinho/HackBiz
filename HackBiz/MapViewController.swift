@@ -88,8 +88,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
         if let thumbnailImageButton = view.leftCalloutAccessoryView as? UIButton {
-            let image = #imageLiteral(resourceName: "italy")
-            thumbnailImageButton.setImage(image, for: UIControlState())
+            if let place = view.annotation as? Place {
+                thumbnailImageButton.setImage(place.smallImage, for: UIControlState())
+            }
         }
     }
 
