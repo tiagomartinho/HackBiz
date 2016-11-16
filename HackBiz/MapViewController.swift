@@ -68,6 +68,10 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         let annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "reuseIdentifier")
         annotationView.pinTintColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
         annotationView.canShowCallout = true
+        annotationView.rightCalloutAccessoryView = UIButton(type: .contactAdd)
         return annotationView
+    }
+
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
     }
 }
