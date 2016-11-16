@@ -18,14 +18,14 @@ class ExploreViewController: UIViewController{
                      "Anguillara Sabazia",
                      "Novara"]
 
-        var descriptions = ["",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     ""]
+        var descriptions = ["L'origine del nome \"Seravezza\"",
+            "Ufficialmente di origini romane, ma su",
+            "Insieme ai comuni confinanti crea un agglomerato",
+            "La città è universalmente conosciuta per il",
+            "La città è posizionata sulla parte settentrionale",
+            "Le origini sono datate attorno all'anno",
+            "Gli abitanti di Anguillara non hanno",
+            "Storicamente la città fu fondata"]
 
         var links = ["https://it.wikipedia.org/wiki/Seravezza",
                      "https://it.wikipedia.org/wiki/Lucca",
