@@ -85,7 +85,7 @@ extension ExploreViewController: KolodaViewDelegate {
             if let maps = tabBarController?.viewControllers?.first as? MapViewController {
                 let annotation = MKPointAnnotation()
                 annotation.coordinate = dataSource[Int(index)].coordinate
-                annotation.title = "A"
+                annotation.title = dataSource[Int(index)].name
                 maps.mapView.addAnnotation(annotation)
             }
         }
