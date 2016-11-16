@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P6n-qI-XRk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bqH-26-aZI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -408,13 +408,13 @@ Conosci esploratori come te</string>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="E4K-nM-GPg">
                                 <rect key="frame" x="20" y="210" width="335" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight" translatesAutoresizingMaskIntoConstraints="NO" id="aAQ-n0-RDy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snail-100" translatesAutoresizingMaskIntoConstraints="NO" id="aAQ-n0-RDy">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t1r-cG-gQE">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Turtle-100" translatesAutoresizingMaskIntoConstraints="NO" id="t1r-cG-gQE">
                                         <rect key="frame" x="125" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight2" translatesAutoresizingMaskIntoConstraints="NO" id="udO-ZC-1P2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Running Rabbit-100" translatesAutoresizingMaskIntoConstraints="NO" id="udO-ZC-1P2">
                                         <rect key="frame" x="250" y="0.0" width="85" height="100"/>
                                     </imageView>
                                 </subviews>
@@ -565,13 +565,13 @@ Conosci esploratori come te</string>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="6ey-Qv-eIF">
                                 <rect key="frame" x="20" y="210" width="335" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camping" translatesAutoresizingMaskIntoConstraints="NO" id="TyY-BX-6WJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Camping Tent-100" translatesAutoresizingMaskIntoConstraints="NO" id="TyY-BX-6WJ">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WHV-Ak-AzE">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home-96" translatesAutoresizingMaskIntoConstraints="NO" id="WHV-Ak-AzE">
                                         <rect key="frame" x="125" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotel" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-1C-pQS">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3 Star Hotel-100" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-1C-pQS">
                                         <rect key="frame" x="250" y="0.0" width="85" height="100"/>
                                     </imageView>
                                 </subviews>
@@ -623,12 +623,16 @@ Conosci esploratori come te</string>
         </scene>
     </scenes>
     <resources>
+        <image name="3 Star Hotel-100" width="100" height="100"/>
+        <image name="Camping Tent-100" width="100" height="100"/>
+        <image name="Home-96" width="96" height="96"/>
         <image name="Log in" width="375" height="667"/>
         <image name="Logo_FrancigenR" width="1024" height="1024"/>
+        <image name="Running Rabbit-100" width="100" height="100"/>
+        <image name="Snail-100" width="100" height="100"/>
+        <image name="Turtle-100" width="100" height="100"/>
         <image name="bycicle" width="256" height="256"/>
-        <image name="camping" width="128" height="128"/>
         <image name="facebook" width="1334" height="209"/>
-        <image name="hotel" width="128" height="128"/>
         <image name="map-location (2)" width="25" height="25"/>
         <image name="money" width="128" height="128"/>
         <image name="money4" width="128" height="128"/>
@@ -636,11 +640,9 @@ Conosci esploratori come te</string>
         <image name="search (1)" width="25" height="25"/>
         <image name="user (2)" width="25" height="25"/>
         <image name="users (2)" width="25" height="25"/>
-        <image name="weight" width="128" height="128"/>
-        <image name="weight2" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="umd-Db-IZa"/>
-        <segue reference="ThP-w0-uEs"/>
+        <segue reference="A4T-Jf-H9t"/>
     </inferredMetricsTieBreakers>
 </document>
