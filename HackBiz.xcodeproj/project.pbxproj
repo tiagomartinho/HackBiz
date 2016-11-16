@@ -10,6 +10,14 @@
 		084C9829FB842DD47B463095 /* Pods_HackBizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5D29B6C7B75F98677822C2 /* Pods_HackBizUITests.framework */; };
 		2603195AD091C7149730143A /* Pods_HackBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC59641C6949EC606A291A3B /* Pods_HackBiz.framework */; };
 		A9EE07CDAF5A64B67921F17A /* Pods_HackBizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB0D9D6591F5D26545C3C9 /* Pods_HackBizTests.framework */; };
+		EA4C26321DDBF5850064D302 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C262A1DDBF5850064D302 /* 1.png */; };
+		EA4C26331DDBF5850064D302 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C262B1DDBF5850064D302 /* 2.png */; };
+		EA4C26341DDBF5850064D302 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C262C1DDBF5850064D302 /* 3.png */; };
+		EA4C26351DDBF5850064D302 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C262D1DDBF5850064D302 /* 4.png */; };
+		EA4C26361DDBF5850064D302 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C262E1DDBF5850064D302 /* 5.png */; };
+		EA4C26371DDBF5850064D302 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C262F1DDBF5850064D302 /* 6.png */; };
+		EA4C26381DDBF5850064D302 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C26301DDBF5850064D302 /* 7.png */; };
+		EA4C26391DDBF5850064D302 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4C26311DDBF5850064D302 /* 8.png */; };
 		EAA417411DDB63AC005117FD /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA417401DDB63AC005117FD /* GPX.swift */; };
 		EAA4E0691DDBAC4C008BFEC9 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4E0681DDBAC4C008BFEC9 /* ExploreViewController.swift */; };
 		EAA4E0701DDBCDBF008BFEC9 /* ExampleOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4E06F1DDBCDBF008BFEC9 /* ExampleOverlayView.xib */; };
@@ -102,6 +110,14 @@
 		97BB0D9D6591F5D26545C3C9 /* Pods_HackBizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackBizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2775BA3FED32D651694121E /* Pods-HackBiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackBiz/Pods-HackBiz.release.xcconfig"; sourceTree = "<group>"; };
 		E65844482F662DE7CB797944 /* Pods-HackBizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackBizTests/Pods-HackBizTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA4C262A1DDBF5850064D302 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		EA4C262B1DDBF5850064D302 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		EA4C262C1DDBF5850064D302 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		EA4C262D1DDBF5850064D302 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		EA4C262E1DDBF5850064D302 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		EA4C262F1DDBF5850064D302 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		EA4C26301DDBF5850064D302 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		EA4C26311DDBF5850064D302 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		EAA417401DDB63AC005117FD /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		EAA4E0681DDBAC4C008BFEC9 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		EAA4E06F1DDBCDBF008BFEC9 /* ExampleOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleOverlayView.xib; sourceTree = "<group>"; };
@@ -213,6 +229,14 @@
 			children = (
 				EAF00CE71DDB52840032FB67 /* AppDelegate.swift */,
 				EAF00CEE1DDB52840032FB67 /* Assets.xcassets */,
+				EA4C262A1DDBF5850064D302 /* 1.png */,
+				EA4C262B1DDBF5850064D302 /* 2.png */,
+				EA4C262C1DDBF5850064D302 /* 3.png */,
+				EA4C262D1DDBF5850064D302 /* 4.png */,
+				EA4C262E1DDBF5850064D302 /* 5.png */,
+				EA4C262F1DDBF5850064D302 /* 6.png */,
+				EA4C26301DDBF5850064D302 /* 7.png */,
+				EA4C26311DDBF5850064D302 /* 8.png */,
 				EAF00CF01DDB52840032FB67 /* LaunchScreen.storyboard */,
 				EAF00CF31DDB52840032FB67 /* Info.plist */,
 			);
@@ -514,24 +538,30 @@
 				EAC27F0C1DDB6D240033BD7B /* tappa-19-variante-felegara.gpx in Resources */,
 				EAA4E0701DDBCDBF008BFEC9 /* ExampleOverlayView.xib in Resources */,
 				EAC27F0E1DDB6D240033BD7B /* tappa-31-variante-alternativo-colle.gpx in Resources */,
+				EA4C26381DDBF5850064D302 /* 7.png in Resources */,
+				EA4C26341DDBF5850064D302 /* 3.png in Resources */,
 				EAC27EE61DDB6D240033BD7B /* 16.gpx in Resources */,
 				EAC27F061DDB6D240033BD7B /* 5.gpx in Resources */,
 				EAC27EEF1DDB6D240033BD7B /* 24.gpx in Resources */,
 				EAC27EEB1DDB6D240033BD7B /* 20.gpx in Resources */,
 				EAC27F101DDB6D240033BD7B /* tappa-42-variante-uscita-sutri.gpx in Resources */,
+				EA4C26371DDBF5850064D302 /* 6.png in Resources */,
 				EAC27EFA1DDB6D240033BD7B /* 34.gpx in Resources */,
 				EAC27EEA1DDB6D240033BD7B /* 2.gpx in Resources */,
 				EAC27EF11DDB6D240033BD7B /* 26.gpx in Resources */,
 				EAC27EF91DDB6D240033BD7B /* 33.gpx in Resources */,
 				EAC27F0B1DDB6D240033BD7B /* tappa-16-variante-oriolitta-piacenza.gpx in Resources */,
 				EAC27EFE1DDB6D240033BD7B /* 38.gpx in Resources */,
+				EA4C26351DDBF5850064D302 /* 4.png in Resources */,
 				EAC27F131DDB6D240033BD7B /* tappa-7-8-Variante-Ivrea-Santhia.GPX in Resources */,
 				EAC27EE11DDB6D240033BD7B /* 11.gpx in Resources */,
 				EAC27EF71DDB6D240033BD7B /* 31.gpx in Resources */,
 				EAC27EF51DDB6D240033BD7B /* 3.gpx in Resources */,
 				EAC27F041DDB6D240033BD7B /* 43.gpx in Resources */,
+				EA4C26391DDBF5850064D302 /* 8.png in Resources */,
 				EAC27EFB1DDB6D240033BD7B /* 35.gpx in Resources */,
 				EAC27F0F1DDB6D240033BD7B /* tappa-36-variante-1-proceno.gpx in Resources */,
+				EA4C26361DDBF5850064D302 /* 5.png in Resources */,
 				EAC27EE91DDB6D240033BD7B /* 19.gpx in Resources */,
 				EAC27EEC1DDB6D240033BD7B /* 21.gpx in Resources */,
 				EAC27F0A1DDB6D240033BD7B /* 9.gpx in Resources */,
@@ -550,6 +580,8 @@
 				EAC27EF01DDB6D240033BD7B /* 25.gpx in Resources */,
 				EAC27EFD1DDB6D240033BD7B /* 37.gpx in Resources */,
 				EAC27F071DDB6D240033BD7B /* 6.gpx in Resources */,
+				EA4C26331DDBF5850064D302 /* 2.png in Resources */,
+				EA4C26321DDBF5850064D302 /* 1.png in Resources */,
 				EAC27EF21DDB6D240033BD7B /* 27.gpx in Resources */,
 				EAC27F001DDB6D240033BD7B /* 4.gpx in Resources */,
 				EAC27EED1DDB6D240033BD7B /* 22.gpx in Resources */,

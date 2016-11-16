@@ -9,14 +9,38 @@ class ExploreViewController: UIViewController{
     @IBOutlet weak var kolodaView: KolodaView!
 
     var dataSource: [Place] = {
-        var links = ["https://it.wikipedia.org/wiki/Museum_of_Fine_Arts_(Boston)", "https://it.wikipedia.org/wiki/Museum_of_Fine_Arts_(Boston)"]
-        var coordinates = [CLLocationCoordinate2D(latitude: 45.869000,
-                                                  longitude: 7.170561),CLLocationCoordinate2D(latitude: 45.869000,
-                                                                                              longitude: 7.170561)]
+        var names = ["Bassiano",
+                     "Castel Gandolfo",
+                     "Fondi",
+                     "Formia",
+                     "Giulianello",
+                     "Itri",
+                     "Nemi",
+                     "Priverno"]
+
+        var links = ["https://it.wikipedia.org/wiki/Bassiano",
+                     "https://it.wikipedia.org/wiki/Castel_Gandolfo",
+                     "https://it.wikipedia.org/wiki/Fondi",
+                     "https://it.wikipedia.org/wiki/Formia",
+                     "https://it.wikipedia.org/wiki/Giulianello",
+                     "https://it.wikipedia.org/wiki/Itri",
+                     "https://it.wikipedia.org/wiki/Nemi",
+                     "https://it.wikipedia.org/wiki/Priverno"]
+
+        var coordinates = [CLLocationCoordinate2D(latitude: 42.2936555, longitude: 12.390097),
+                           CLLocationCoordinate2D(latitude: 41.75, longitude: 12.65),
+                           CLLocationCoordinate2D(latitude: 41.35, longitude: 13.416667),
+                           CLLocationCoordinate2D(latitude: 41.256389, longitude: 13.606944),
+                           CLLocationCoordinate2D(latitude: 41.65, longitude: 12.916667),
+                           CLLocationCoordinate2D(latitude: 41.283333, longitude: 13.533333),
+                           CLLocationCoordinate2D(latitude: 41.716667, longitude: 12.716667),
+                           CLLocationCoordinate2D(latitude: 41.466667, longitude: 13.183333)]
+
         var array: [Place] = []
-        for index in 0..<1 {
-            let image = UIImage(named: "Card_like_\(index + 1)")!
-            let place = Place(image: image,
+        for index in 0..<8 {
+            let image = UIImage(named: "\(index + 1)")!
+            let place = Place(name: names[index],
+                              image: image,
                               link: links[index],
                               coordinate: coordinates[index])
             array.append(place)
@@ -40,6 +64,7 @@ class ExploreViewController: UIViewController{
 }
 
 struct Place {
+    let name: String
     let image: UIImage
     let link: String
     var coordinate: CLLocationCoordinate2D
