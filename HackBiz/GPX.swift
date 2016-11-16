@@ -10,6 +10,77 @@
 
 import Foundation
 
+class Waypoint: Entry
+{
+    var latitude: Double
+    var longitude: Double
+
+    init(latitude: Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+        super.init()
+    }
+
+    var info: String? {
+        set { attributes["desc"] = newValue }
+        get { return attributes["desc"] }
+    }
+    lazy var date: Date? = self.attributes["time"]?.asGpxDate
+
+    override var description: String {
+        return ["lat=\(latitude)", "lon=\(longitude)", super.description].joined(separator: " ")
+    }
+}
+
+// MARK: - Public Classes
+
+class Track: Entry
+{
+    var fixes = [Waypoint]()
+
+    override var description: String {
+        let waypointDescription = "fixes=[\n" + fixes.map { $0.description }.joined(separator: "\n") + "\n]"
+        return [super.description, waypointDescription].joined(separator: " ")
+    }
+}
+
+class Entry: NSObject
+{
+    var links = [Link]()
+    var attributes = [String:String]()
+
+    var name: String? {
+        set { attributes["name"] = newValue }
+        get { return attributes["name"] }
+    }
+
+    override var description: String {
+        var descriptions = [String]()
+        if attributes.count > 0 { descriptions.append("attributes=\(attributes)") }
+        if links.count > 0 { descriptions.append("links=\(links)") }
+        return descriptions.joined(separator: " ")
+    }
+}
+
+class Link: CustomStringConvertible
+{
+    var href: String
+    var linkattributes = [String:String]()
+
+    init(href: String) { self.href = href }
+
+    var url: URL? { return URL(string: href) }
+    var text: String? { return linkattributes["text"] }
+    var type: String? { return linkattributes["type"] }
+
+    var description: String {
+        var descriptions = [String]()
+        descriptions.append("href=\(href)")
+        if linkattributes.count > 0 { descriptions.append("linkattributes=\(linkattributes)") }
+        return "[" + descriptions.joined(separator: " ") + "]"
+    }
+}
+
 class GPX: NSObject, XMLParserDelegate
 {
     // MARK: - Public API
@@ -17,82 +88,11 @@ class GPX: NSObject, XMLParserDelegate
     var waypoints = [Waypoint]()
     var tracks = [Track]()
     var routes = [Track]()
-    
+
     typealias GPXCompletionHandler = (GPX?) -> Void
     
     class func parse(_ url: URL, completionHandler: @escaping GPXCompletionHandler) {
         GPX(url: url, completionHandler: completionHandler).parse()
-    }
-    
-    // MARK: - Public Classes
-    
-    class Track: Entry
-    {
-        var fixes = [Waypoint]()
-        
-        override var description: String {
-            let waypointDescription = "fixes=[\n" + fixes.map { $0.description }.joined(separator: "\n") + "\n]"
-            return [super.description, waypointDescription].joined(separator: " ")
-        }
-    }
-    
-    class Waypoint: Entry
-    {
-        var latitude: Double
-        var longitude: Double
-        
-        init(latitude: Double, longitude: Double) {
-            self.latitude = latitude
-            self.longitude = longitude
-            super.init()
-        }
-        
-        var info: String? {
-            set { attributes["desc"] = newValue }
-            get { return attributes["desc"] }
-        }
-        lazy var date: Date? = self.attributes["time"]?.asGpxDate
-        
-        override var description: String {
-            return ["lat=\(latitude)", "lon=\(longitude)", super.description].joined(separator: " ")
-        }
-    }
-    
-    class Entry: NSObject
-    {
-        var links = [Link]()
-        var attributes = [String:String]()
-        
-        var name: String? {
-            set { attributes["name"] = newValue }
-            get { return attributes["name"] }
-        }
-        
-        override var description: String {
-            var descriptions = [String]()
-            if attributes.count > 0 { descriptions.append("attributes=\(attributes)") }
-            if links.count > 0 { descriptions.append("links=\(links)") }
-            return descriptions.joined(separator: " ")
-        }
-    }
-    
-    class Link: CustomStringConvertible
-    {
-        var href: String
-        var linkattributes = [String:String]()
-        
-        init(href: String) { self.href = href }
-        
-        var url: URL? { return URL(string: href) }
-        var text: String? { return linkattributes["text"] }
-        var type: String? { return linkattributes["type"] }
-        
-        var description: String {
-            var descriptions = [String]()
-            descriptions.append("href=\(href)")
-            if linkattributes.count > 0 { descriptions.append("linkattributes=\(linkattributes)") }
-            return "[" + descriptions.joined(separator: " ") + "]"
-        }
     }
 
     // MARK: - CustomStringConvertible

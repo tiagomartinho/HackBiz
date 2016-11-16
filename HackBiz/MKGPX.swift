@@ -12,7 +12,7 @@ import MapKit
 // EditableWaypoints are draggable
 // so their coordinate needs to be settable
 
-class EditableWaypoint : GPX.Waypoint
+class EditableWaypoint : Waypoint
 {
     override var coordinate: CLLocationCoordinate2D {
         get {
@@ -25,7 +25,7 @@ class EditableWaypoint : GPX.Waypoint
     }
 }
 
-extension GPX.Waypoint : MKAnnotation
+extension Waypoint : MKAnnotation
 {
     var coordinate: CLLocationCoordinate2D {
         return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)

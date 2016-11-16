@@ -9,6 +9,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
 
+    var tracks = [Waypoint]()
+
     var gpxURL: URL? {
         didSet {
             if let url = gpxURL {
@@ -16,6 +18,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                     if gpx != nil {
                         var coordinates = [CLLocationCoordinate2D]()
                         if let first = gpx?.tracks.first {
+                            self.tracks.append(first.fixes.first!)
                             for fixe in first.fixes {
                                 coordinates.append(fixe.coordinate)
                             }
@@ -49,7 +52,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         return MKOverlayRenderer()
     }
 
-    func selectWaypoint(_ waypoint: GPX.Waypoint?) {
+    func selectWaypoint(_ waypoint: Waypoint?) {
         if waypoint != nil {
             mapView.selectAnnotation(waypoint!, animated: true)
         }
@@ -73,5 +76,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     }
 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+
     }
+
+    
 }
