@@ -27,14 +27,14 @@ class ExploreViewController: UIViewController{
                      "https://it.wikipedia.org/wiki/Nemi",
                      "https://it.wikipedia.org/wiki/Priverno"]
 
-        var coordinates = [CLLocationCoordinate2D(latitude: 42.2936555, longitude: 12.390097),
-                           CLLocationCoordinate2D(latitude: 41.75, longitude: 12.65),
-                           CLLocationCoordinate2D(latitude: 41.35, longitude: 13.416667),
-                           CLLocationCoordinate2D(latitude: 41.256389, longitude: 13.606944),
-                           CLLocationCoordinate2D(latitude: 41.65, longitude: 12.916667),
-                           CLLocationCoordinate2D(latitude: 41.283333, longitude: 13.533333),
-                           CLLocationCoordinate2D(latitude: 41.716667, longitude: 12.716667),
-                           CLLocationCoordinate2D(latitude: 41.466667, longitude: 13.183333)]
+        var coordinates = [CLLocationCoordinate2D(latitude: 44, longitude: 10.233333),
+                                             CLLocationCoordinate2D(latitude: 43.85, longitude: 10.516667),
+                                             CLLocationCoordinate2D(latitude: 45.05, longitude: 9.433333),
+                                             CLLocationCoordinate2D(latitude: 43.318333, longitude: 11.331389),
+                                             CLLocationCoordinate2D(latitude: 42.675278, longitude: 11.873056),
+                                             CLLocationCoordinate2D(latitude: 42.225278, longitude: 12.19),
+                                             CLLocationCoordinate2D(latitude: 42.088333, longitude: 12.2775),
+                                             CLLocationCoordinate2D(latitude: 45.45, longitude: 8.616667)]
 
         var array: [Place] = []
         for index in 0..<8 {
