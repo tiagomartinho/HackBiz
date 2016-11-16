@@ -87,10 +87,17 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let location = CLLocation(latitude: (view.annotation?.coordinate.latitude)!,
                                    longitude: (view.annotation?.coordinate.longitude)!)
-        let waypoint = nearest(location: location, waypoints: tracks)
-        let sourceLocation = CLLocationCoordinate2D(latitude: (waypoint?.latitude)!, longitude: (waypoint?.longitude)!)
+        let (waypoint1, waypoint2) = nearest(location: location, waypoints: tracks)
+        let sourceLocation1 = CLLocationCoordinate2D(latitude: (waypoint1?.latitude)!,
+                                                    longitude: (waypoint1?.longitude)!)
         let destinationLocation = location.coordinate
+        let sourceLocation2 = CLLocationCoordinate2D(latitude: (waypoint2?.latitude)!,
+                                                    longitude: (waypoint2?.longitude)!)
+        drawRoute(sourceLocation: sourceLocation1, destinationLocation: destinationLocation)
+        drawRoute(sourceLocation: destinationLocation, destinationLocation: sourceLocation2)
+    }
 
+    func drawRoute(sourceLocation: CLLocationCoordinate2D, destinationLocation: CLLocationCoordinate2D) {
         let sourcePlacemark = MKPlacemark(coordinate: sourceLocation, addressDictionary: nil)
         let destinationPlacemark = MKPlacemark(coordinate: destinationLocation, addressDictionary: nil)
 
@@ -130,7 +137,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             }
 
             let route = response.routes[0]
-            var polyline = route.polyline
+            let polyline = route.polyline
             polyline.title = "RED"
             self.mapView.add(polyline, level: .aboveRoads)
 
@@ -140,19 +147,21 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     }
 
     func nearest(location: CLLocation?,
-                        waypoints: [Waypoint]) -> Waypoint? {
-        guard let location = location else { return nil }
+                        waypoints: [Waypoint]) -> (Waypoint?,Waypoint?) {
+        guard let location = location else { return (nil,nil) }
 
         var min = waypoints.first!
-        for waypoint in waypoints {
+        var next = waypoints.first!
+        for (index,waypoint) in waypoints.enumerated() {
             let location1 = CLLocation(latitude: waypoint.latitude,
                                        longitude: waypoint.longitude)
             let location2 = CLLocation(latitude: min.latitude,
                                        longitude: min.longitude)
             if location.distance(from: location1) < location.distance(from: location2) {
                 min = waypoint
+                next = waypoints[index+1]
             }
         }
-        return min
+        return (min,next)
     }
 }
