@@ -73,23 +73,67 @@
             <point key="canvasLocation" x="1936.8" y="1130.2848575712144"/>
         </scene>
         <!--Trova-->
-        <scene sceneID="TwV-0X-cHV">
+        <scene sceneID="Q4W-Ae-jNO">
             <objects>
-                <viewController id="bsk-da-rP5" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JXe-xJ-GHM"/>
-                        <viewControllerLayoutGuide type="bottom" id="KVT-eo-XRN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="o8w-e6-hAH">
+                <tableViewController id="j3T-rI-2Zs" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="IcZ-xy-U0I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Trova" image="users (2)" id="T3P-oU-VV8"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iBI-9H-X4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <sections>
+                            <tableViewSection id="G0k-Lo-oxW">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="497" id="vva-Mp-RRu">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="497"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vva-Mp-RRu" id="8TS-dO-iux">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="social1" translatesAutoresizingMaskIntoConstraints="NO" id="Myy-lK-mOJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="496.5"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Myy-lK-mOJ" secondAttribute="trailing" id="Lfu-gy-IiV"/>
+                                                <constraint firstAttribute="bottom" secondItem="Myy-lK-mOJ" secondAttribute="bottom" id="NOw-3p-PJQ"/>
+                                                <constraint firstItem="Myy-lK-mOJ" firstAttribute="top" secondItem="8TS-dO-iux" secondAttribute="top" id="VaK-Bs-ggf"/>
+                                                <constraint firstItem="Myy-lK-mOJ" firstAttribute="leading" secondItem="8TS-dO-iux" secondAttribute="leading" id="XLV-VZ-JOc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="497" id="O2j-Ia-FIs">
+                                        <rect key="frame" x="0.0" y="497" width="375" height="497"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O2j-Ia-FIs" id="ngH-9D-RXK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="social2" translatesAutoresizingMaskIntoConstraints="NO" id="6j2-MI-akp">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="496.5"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="6j2-MI-akp" firstAttribute="top" secondItem="ngH-9D-RXK" secondAttribute="top" id="2lf-ew-Fls"/>
+                                                <constraint firstAttribute="trailing" secondItem="6j2-MI-akp" secondAttribute="trailing" id="Lz2-sb-N7f"/>
+                                                <constraint firstItem="6j2-MI-akp" firstAttribute="leading" secondItem="ngH-9D-RXK" secondAttribute="leading" id="Uq9-3V-elV"/>
+                                                <constraint firstAttribute="bottom" secondItem="6j2-MI-akp" secondAttribute="bottom" id="cJz-Ri-NjZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="j3T-rI-2Zs" id="r7e-vT-gKl"/>
+                            <outlet property="delegate" destination="j3T-rI-2Zs" id="fhE-NC-bOg"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Trova" image="users (2)" id="Kxq-l0-Fcc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ze9-ck-lCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1932" y="1786"/>
+            <point key="canvasLocation" x="1937" y="1790"/>
         </scene>
         <!--Profilo-->
         <scene sceneID="eJg-sk-1DJ">
@@ -102,13 +146,24 @@
                     <view key="view" contentMode="scaleToFill" id="4Jr-qq-sFd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pagina profilo" translatesAutoresizingMaskIntoConstraints="NO" id="5EC-0U-UbT">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5EC-0U-UbT" firstAttribute="top" secondItem="bJt-Mq-6ur" secondAttribute="bottom" constant="8" id="1nh-VN-Ir3"/>
+                            <constraint firstAttribute="trailing" secondItem="5EC-0U-UbT" secondAttribute="trailing" id="MQ5-Cw-Q1j"/>
+                            <constraint firstItem="Ydz-c7-9CG" firstAttribute="top" secondItem="5EC-0U-UbT" secondAttribute="bottom" id="Uhg-HB-YkN"/>
+                            <constraint firstItem="5EC-0U-UbT" firstAttribute="leading" secondItem="4Jr-qq-sFd" secondAttribute="leading" id="icd-o8-Y4i"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profilo" image="user (2)" id="lOb-i0-pZG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GiJ-HG-bBt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1928" y="2437"/>
+            <point key="canvasLocation" x="1927.2" y="2436.4317841079464"/>
         </scene>
         <!--Mappa-->
         <scene sceneID="a4r-ez-2x0">
@@ -613,7 +668,7 @@ Conosci esploratori come te</string>
                     <connections>
                         <segue destination="HeO-5r-XAP" kind="relationship" relationship="viewControllers" id="bp9-I3-BGu"/>
                         <segue destination="1m6-bG-UVr" kind="relationship" relationship="viewControllers" id="kXW-ki-orl"/>
-                        <segue destination="bsk-da-rP5" kind="relationship" relationship="viewControllers" id="6Ck-Sg-37l"/>
+                        <segue destination="j3T-rI-2Zs" kind="relationship" relationship="viewControllers" id="EIF-Mg-EcF"/>
                         <segue destination="qWk-U8-9fU" kind="relationship" relationship="viewControllers" id="UHj-mw-WZi"/>
                     </connections>
                 </tabBarController>
@@ -629,6 +684,7 @@ Conosci esploratori come te</string>
         <image name="Home-96" width="96" height="96"/>
         <image name="Log in" width="375" height="667"/>
         <image name="Logo_FrancigenR" width="1024" height="1024"/>
+        <image name="Pagina profilo" width="1125" height="2001"/>
         <image name="Running Rabbit-100" width="100" height="100"/>
         <image name="Snail-100" width="100" height="100"/>
         <image name="Turtle-100" width="100" height="100"/>
@@ -639,6 +695,8 @@ Conosci esploratori come te</string>
         <image name="map-location (2)" width="25" height="25"/>
         <image name="pedestrian" width="256" height="256"/>
         <image name="search (1)" width="25" height="25"/>
+        <image name="social1" width="1053" height="1395"/>
+        <image name="social2" width="1053" height="1395"/>
         <image name="user (2)" width="25" height="25"/>
         <image name="users (2)" width="25" height="25"/>
     </resources>
