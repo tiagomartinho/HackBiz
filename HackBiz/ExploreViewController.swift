@@ -18,6 +18,15 @@ class ExploreViewController: UIViewController{
                      "Nemi",
                      "Priverno"]
 
+        var descriptions = ["BassianoBassianoBassianoBassiano",
+                     "Castel Gandolfo",
+                     "Fondi",
+                     "Formia",
+                     "Giulianello",
+                     "Itri",
+                     "Nemi",
+                     "Priverno"]
+
         var links = ["https://it.wikipedia.org/wiki/Bassiano",
                      "https://it.wikipedia.org/wiki/Castel_Gandolfo",
                      "https://it.wikipedia.org/wiki/Fondi",
@@ -40,6 +49,7 @@ class ExploreViewController: UIViewController{
         for index in 0..<8 {
             let image = UIImage(named: "\(index + 1)")!
             let place = Place(name: names[index],
+                              subtitle: descriptions[index],
                               image: image,
                               link: links[index],
                               coordinate: coordinates[index])
@@ -63,11 +73,24 @@ class ExploreViewController: UIViewController{
     }
 }
 
-struct Place {
+class Place: NSObject {
     let name: String
+    let subtitle: String?
     let image: UIImage
     let link: String
     var coordinate: CLLocationCoordinate2D
+
+    init(name: String, subtitle: String, image: UIImage, link: String, coordinate: CLLocationCoordinate2D) {
+        self.name = name
+        self.subtitle = subtitle
+        self.image = image
+        self.link = link
+        self.coordinate = coordinate
+    }
+}
+
+extension Place: MKAnnotation {
+    var title: String? { return name }
 }
 
 extension ExploreViewController: KolodaViewDelegate {
@@ -83,10 +106,7 @@ extension ExploreViewController: KolodaViewDelegate {
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
         if direction == SwipeResultDirection.right {
             if let maps = tabBarController?.viewControllers?.first as? MapViewController {
-                let annotation = MKPointAnnotation()
-                annotation.coordinate = dataSource[Int(index)].coordinate
-                annotation.title = dataSource[Int(index)].name
-                maps.mapView.addAnnotation(annotation)
+                maps.mapView.addAnnotation(dataSource[Int(index)])
             }
         }
     }

@@ -79,7 +79,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         let annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "reuseIdentifier")
-        annotationView.pinTintColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
+        annotationView.pinTintColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         annotationView.canShowCallout = true
         annotationView.rightCalloutAccessoryView = UIButton(type: .contactAdd)
         annotationView.leftCalloutAccessoryView = UIButton(frame: CGRect(x: 0, y: 0, width: 59, height: 59))
@@ -96,8 +96,10 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
 
         if control == view.leftCalloutAccessoryView {
-            let svc = SFSafariViewController(url: URL(string: "https://it.wikipedia.org/wiki/Bassiano")!)
-            self.present(svc, animated: true, completion: nil)
+            if let place = view.annotation as? Place {
+                let svc = SFSafariViewController(url: URL(string: place.link)!)
+                self.present(svc, animated: true, completion: nil)
+            }
         }
 
         if control == view.rightCalloutAccessoryView {
