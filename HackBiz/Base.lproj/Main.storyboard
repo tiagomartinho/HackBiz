@@ -490,13 +490,13 @@ Conosci esploratori come te</string>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="CYb-oa-iV7">
                                 <rect key="frame" x="20" y="210" width="335" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="money" translatesAutoresizingMaskIntoConstraints="NO" id="Y1h-ei-To5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c1" translatesAutoresizingMaskIntoConstraints="NO" id="Y1h-ei-To5">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cbE-tT-VPG">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c3" translatesAutoresizingMaskIntoConstraints="NO" id="cbE-tT-VPG">
                                         <rect key="frame" x="125" y="0.0" width="85" height="100"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="money4" translatesAutoresizingMaskIntoConstraints="NO" id="5yI-in-VZY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Coins-100" translatesAutoresizingMaskIntoConstraints="NO" id="5yI-in-VZY">
                                         <rect key="frame" x="250" y="0.0" width="85" height="100"/>
                                     </imageView>
                                 </subviews>
@@ -625,6 +625,7 @@ Conosci esploratori come te</string>
     <resources>
         <image name="3 Star Hotel-100" width="100" height="100"/>
         <image name="Camping Tent-100" width="100" height="100"/>
+        <image name="Coins-100" width="100" height="100"/>
         <image name="Home-96" width="96" height="96"/>
         <image name="Log in" width="375" height="667"/>
         <image name="Logo_FrancigenR" width="1024" height="1024"/>
@@ -632,10 +633,10 @@ Conosci esploratori come te</string>
         <image name="Snail-100" width="100" height="100"/>
         <image name="Turtle-100" width="100" height="100"/>
         <image name="bycicle" width="256" height="256"/>
+        <image name="c1" width="100" height="100"/>
+        <image name="c3" width="100" height="100"/>
         <image name="facebook" width="1334" height="209"/>
         <image name="map-location (2)" width="25" height="25"/>
-        <image name="money" width="128" height="128"/>
-        <image name="money4" width="128" height="128"/>
         <image name="pedestrian" width="256" height="256"/>
         <image name="search (1)" width="25" height="25"/>
         <image name="user (2)" width="25" height="25"/>
@@ -643,6 +644,6 @@ Conosci esploratori come te</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="umd-Db-IZa"/>
-        <segue reference="A4T-Jf-H9t"/>
+        <segue reference="ThP-w0-uEs"/>
     </inferredMetricsTieBreakers>
 </document>
