@@ -9,32 +9,32 @@ class ExploreViewController: UIViewController{
     @IBOutlet weak var kolodaView: KolodaView!
 
     var dataSource: [Place] = {
-        var names = ["Bassiano",
-                     "Castel Gandolfo",
-                     "Fondi",
-                     "Formia",
-                     "Giulianello",
-                     "Itri",
-                     "Nemi",
-                     "Priverno"]
+        var names = ["Seravezza",
+                     "Lucca",
+                     "Castel San Giovanni",
+                     "Siena",
+                     "Grotte di Castro",
+                     "Bassano Romano",
+                     "Anguillara Sabazia",
+                     "Novara"]
 
-        var descriptions = ["BassianoBassianoBassianoBassiano",
-                     "Castel Gandolfo",
-                     "Fondi",
-                     "Formia",
-                     "Giulianello",
-                     "Itri",
-                     "Nemi",
-                     "Priverno"]
+        var descriptions = ["",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     ""]
 
-        var links = ["https://it.wikipedia.org/wiki/Bassiano",
-                     "https://it.wikipedia.org/wiki/Castel_Gandolfo",
-                     "https://it.wikipedia.org/wiki/Fondi",
-                     "https://it.wikipedia.org/wiki/Formia",
-                     "https://it.wikipedia.org/wiki/Giulianello",
-                     "https://it.wikipedia.org/wiki/Itri",
-                     "https://it.wikipedia.org/wiki/Nemi",
-                     "https://it.wikipedia.org/wiki/Priverno"]
+        var links = ["https://it.wikipedia.org/wiki/Seravezza",
+                     "https://it.wikipedia.org/wiki/Lucca",
+                     "https://it.wikipedia.org/wiki/Castel_San_Giovanni",
+                     "https://it.wikipedia.org/wiki/Siena",
+                     "https://it.wikipedia.org/wiki/Grotte_di_Castro",
+                     "https://it.wikipedia.org/wiki/Bassano_Romano",
+                     "https://it.wikipedia.org/wiki/Anguillara_Sabazia",
+                     "https://it.wikipedia.org/wiki/Novara"]
 
         var coordinates = [CLLocationCoordinate2D(latitude: 44, longitude: 10.233333),
                                              CLLocationCoordinate2D(latitude: 43.85, longitude: 10.516667),
