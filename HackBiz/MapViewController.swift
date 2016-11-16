@@ -81,7 +81,15 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotationView.pinTintColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
         annotationView.canShowCallout = true
         annotationView.rightCalloutAccessoryView = UIButton(type: .contactAdd)
+        annotationView.leftCalloutAccessoryView = UIButton(frame: CGRect(x: 0, y: 0, width: 59, height: 59))
         return annotationView
+    }
+
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        if let thumbnailImageButton = view.leftCalloutAccessoryView as? UIButton {
+            let image = #imageLiteral(resourceName: "italy")
+            thumbnailImageButton.setImage(image, for: UIControlState())
+        }
     }
 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {

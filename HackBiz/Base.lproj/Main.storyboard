@@ -29,14 +29,14 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0Q-Qu-Epd">
-                                <rect key="frame" x="192" y="568" width="167" height="30"/>
+                                <rect key="frame" x="191.5" y="568" width="167.5" height="30"/>
                                 <state key="normal" title="Aggiungi"/>
                                 <connections>
                                     <action selector="addToJourney:" destination="1m6-bG-UVr" eventType="touchUpInside" id="qlo-7T-SEt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewG-YD-QYY">
-                                <rect key="frame" x="16" y="568" width="168" height="30"/>
+                                <rect key="frame" x="16" y="568" width="167.5" height="30"/>
                                 <state key="normal" title="Ignora">
                                     <color key="titleColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
