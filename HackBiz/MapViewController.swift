@@ -21,9 +21,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                             var track = first.fixes.first!
                             track.info = first.fixes.description
                             self.tracks.append(track)
-                            DispatchQueue.main.async {
-                                self.mapView.addAnnotation(track)
-                            }
+//                            DispatchQueue.main.async {
+//                                self.mapView.addAnnotation(track)
+//                            }
                             for fixe in first.fixes {
                                 coordinates.append(fixe.coordinate)
                             }
@@ -117,7 +117,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             destinationAnnotation.coordinate = location.coordinate
         }
 
-        self.mapView.showAnnotations([sourceAnnotation,destinationAnnotation], animated: true )
+//        self.mapView.showAnnotations([sourceAnnotation,destinationAnnotation], animated: true )
 
         let directionRequest = MKDirectionsRequest()
         directionRequest.source = sourceMapItem
@@ -151,17 +151,29 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         guard let location = location else { return (nil,nil) }
 
         var min = waypoints.first!
-        var next = waypoints.first!
-        for (index,waypoint) in waypoints.enumerated() {
+        for waypoint in waypoints {
             let location1 = CLLocation(latitude: waypoint.latitude,
                                        longitude: waypoint.longitude)
             let location2 = CLLocation(latitude: min.latitude,
                                        longitude: min.longitude)
             if location.distance(from: location1) < location.distance(from: location2) {
                 min = waypoint
-                next = waypoints[index+1]
             }
         }
-        return (min,next)
+
+        var min2 = waypoints.first!
+        for waypoint in waypoints {
+            if waypoint != min {
+                let location1 = CLLocation(latitude: waypoint.latitude,
+                                           longitude: waypoint.longitude)
+                let location2 = CLLocation(latitude: min2.latitude,
+                                           longitude: min2.longitude)
+                if location.distance(from: location1) < location.distance(from: location2) {
+                    min2 = waypoint
+                }
+            }
+        }
+
+        return (min,min2)
     }
 }
