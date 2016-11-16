@@ -59,7 +59,11 @@
                             <constraint firstItem="ewG-YD-QYY" firstAttribute="leading" secondItem="b08-nh-SaJ" secondAttribute="leadingMargin" id="swJ-lE-jzT"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Esplora" image="compass" id="faj-2S-3U3"/>
+                    <tabBarItem key="tabBarItem" title="Esplora" image="compass" id="faj-2S-3U3">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="Explore the near "/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="kolodaView" destination="LJY-bu-NnT" id="U3o-zi-Qsw"/>
                     </connections>
@@ -342,7 +346,7 @@ Conosci esploratori come te</string>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUJ-Po-iu3">
                                 <rect key="frame" x="0.0" y="587" width="375" height="80"/>
-                                <color key="backgroundColor" red="0.058823529409999999" green="0.61568627450000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.61568627450000002" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="f5z-5D-29l"/>
                                 </constraints>
@@ -424,7 +428,7 @@ Conosci esploratori come te</string>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOT-Ue-XDF">
                                 <rect key="frame" x="0.0" y="587" width="375" height="80"/>
-                                <color key="backgroundColor" red="0.058823529409999999" green="0.61568627450000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.61568627450000002" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Aix-6G-Ng0"/>
                                 </constraints>
@@ -506,7 +510,7 @@ Conosci esploratori come te</string>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q90-Ot-Kgs">
                                 <rect key="frame" x="0.0" y="587" width="375" height="80"/>
-                                <color key="backgroundColor" red="0.058823529409999999" green="0.61568627450000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.058823529411764705" green="0.61568627450980395" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="tbQ-VH-C3y"/>
                                 </constraints>
@@ -595,6 +599,6 @@ Conosci esploratori come te</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="umd-Db-IZa"/>
-        <segue reference="A4T-Jf-H9t"/>
+        <segue reference="ThP-w0-uEs"/>
     </inferredMetricsTieBreakers>
 </document>
