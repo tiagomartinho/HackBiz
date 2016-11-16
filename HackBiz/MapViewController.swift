@@ -1,5 +1,6 @@
 import UIKit
 import MapKit
+import SafariServices
 
 class MapViewController: UIViewController, MKMapViewDelegate {
 
@@ -21,9 +22,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                             var track = first.fixes.first!
                             track.info = first.fixes.description
                             self.tracks.append(track)
-//                            DispatchQueue.main.async {
-//                                self.mapView.addAnnotation(track)
-//                            }
+                            //                            DispatchQueue.main.async {
+                            //                                self.mapView.addAnnotation(track)
+                            //                            }
                             for fixe in first.fixes {
                                 coordinates.append(fixe.coordinate)
                             }
@@ -93,16 +94,24 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     }
 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        let location = CLLocation(latitude: (view.annotation?.coordinate.latitude)!,
-                                   longitude: (view.annotation?.coordinate.longitude)!)
-        let (waypoint1, waypoint2) = nearest(location: location, waypoints: tracks)
-        let sourceLocation1 = CLLocationCoordinate2D(latitude: (waypoint1?.latitude)!,
-                                                    longitude: (waypoint1?.longitude)!)
-        let destinationLocation = location.coordinate
-        let sourceLocation2 = CLLocationCoordinate2D(latitude: (waypoint2?.latitude)!,
-                                                    longitude: (waypoint2?.longitude)!)
-        drawRoute(sourceLocation: sourceLocation1, destinationLocation: destinationLocation)
-        drawRoute(sourceLocation: destinationLocation, destinationLocation: sourceLocation2)
+
+        if control == view.leftCalloutAccessoryView {
+            let svc = SFSafariViewController(url: URL(string: "https://it.wikipedia.org/wiki/Bassiano")!)
+            self.present(svc, animated: true, completion: nil)
+        }
+
+        if control == view.rightCalloutAccessoryView {
+            let location = CLLocation(latitude: (view.annotation?.coordinate.latitude)!,
+                                      longitude: (view.annotation?.coordinate.longitude)!)
+            let (waypoint1, waypoint2) = nearest(location: location, waypoints: tracks)
+            let sourceLocation1 = CLLocationCoordinate2D(latitude: (waypoint1?.latitude)!,
+                                                         longitude: (waypoint1?.longitude)!)
+            let destinationLocation = location.coordinate
+            let sourceLocation2 = CLLocationCoordinate2D(latitude: (waypoint2?.latitude)!,
+                                                         longitude: (waypoint2?.longitude)!)
+            drawRoute(sourceLocation: sourceLocation1, destinationLocation: destinationLocation)
+            drawRoute(sourceLocation: destinationLocation, destinationLocation: sourceLocation2)
+        }
     }
 
     func drawRoute(sourceLocation: CLLocationCoordinate2D, destinationLocation: CLLocationCoordinate2D) {
@@ -125,7 +134,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             destinationAnnotation.coordinate = location.coordinate
         }
 
-//        self.mapView.showAnnotations([sourceAnnotation,destinationAnnotation], animated: true )
+        //        self.mapView.showAnnotations([sourceAnnotation,destinationAnnotation], animated: true )
 
         let directionRequest = MKDirectionsRequest()
         directionRequest.source = sourceMapItem
@@ -155,7 +164,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     }
 
     func nearest(location: CLLocation?,
-                        waypoints: [Waypoint]) -> (Waypoint?,Waypoint?) {
+                 waypoints: [Waypoint]) -> (Waypoint?,Waypoint?) {
         guard let location = location else { return (nil,nil) }
 
         var min = waypoints.first!
@@ -181,7 +190,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                 }
             }
         }
-
+        
         return (min,min2)
     }
 }
