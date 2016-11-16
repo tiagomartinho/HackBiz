@@ -16,7 +16,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                     if gpx != nil {
                         var coordinates = [CLLocationCoordinate2D]()
                         if let first = gpx?.tracks.first {
-//                            self.addWaypoints([first.fixes.first!])
                             for fixe in first.fixes {
                                 coordinates.append(fixe.coordinate)
                             }
@@ -50,10 +49,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         return MKOverlayRenderer()
     }
 
-    func addWaypoints(_ waypoints: [GPX.Waypoint]) {
-        mapView?.addAnnotations(waypoints)
-    }
-
     func selectWaypoint(_ waypoint: GPX.Waypoint?) {
         if waypoint != nil {
             mapView.selectAnnotation(waypoint!, animated: true)
@@ -67,5 +62,12 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             let annotation = MKPointAnnotation()
             annotation.coordinate = newCoordinates
         }
+    }
+
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        let annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "reuseIdentifier")
+        annotationView.pinTintColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
+        annotationView.canShowCallout = true
+        return annotationView
     }
 }

@@ -2,6 +2,7 @@ import UIKit
 import Koloda
 import CoreLocation
 import MapKit
+import SafariServices
 
 class ExploreViewController: UIViewController{
 
@@ -50,7 +51,8 @@ extension ExploreViewController: KolodaViewDelegate {
     }
 
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
-        UIApplication.shared.openURL(URL(string: dataSource[Int(index)].link)!)
+        let svc = SFSafariViewController(url: URL(string: dataSource[Int(index)].link)!)
+        self.present(svc, animated: true, completion: nil)
     }
 
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
@@ -58,6 +60,7 @@ extension ExploreViewController: KolodaViewDelegate {
             if let maps = tabBarController?.viewControllers?.first as? MapViewController {
                 let annotation = MKPointAnnotation()
                 annotation.coordinate = dataSource[Int(index)].coordinate
+                annotation.title = "A"
                 maps.mapView.addAnnotation(annotation)
             }
         }
