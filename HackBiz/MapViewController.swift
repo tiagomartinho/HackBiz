@@ -51,7 +51,11 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if overlay is MKPolyline {
             let lineView = MKPolylineRenderer(overlay: overlay)
-            lineView.strokeColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
+            if (overlay.title ?? "") == "RED" {
+                lineView.strokeColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
+            } else {
+                lineView.strokeColor = #colorLiteral(red: 0.05882352941, green: 0.6156862745, blue: 0.3450980392, alpha: 1)
+            }
             return lineView
         }
         return MKOverlayRenderer()
@@ -94,7 +98,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         let destinationMapItem = MKMapItem(placemark: destinationPlacemark)
 
         let sourceAnnotation = MKPointAnnotation()
-        sourceAnnotation.title = "Times Square"
 
         if let location = sourcePlacemark.location {
             sourceAnnotation.coordinate = location.coordinate
@@ -102,7 +105,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
 
         let destinationAnnotation = MKPointAnnotation()
-        destinationAnnotation.title = "Empire State Building"
 
         if let location = destinationPlacemark.location {
             destinationAnnotation.coordinate = location.coordinate
@@ -128,7 +130,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             }
 
             let route = response.routes[0]
-            self.mapView.add((route.polyline), level: .aboveRoads)
+            var polyline = route.polyline
+            polyline.title = "RED"
+            self.mapView.add(polyline, level: .aboveRoads)
 
             let rect = route.polyline.boundingMapRect
             self.mapView.setRegion(MKCoordinateRegionForMapRect(rect), animated: true)
