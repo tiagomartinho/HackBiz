@@ -139,12 +139,16 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                         waypoints: [Waypoint]) -> Waypoint? {
         guard let location = location else { return nil }
 
-        return waypoints.min { w1, w2 in
-                let location1 = CLLocation(latitude: w1.latitude,
-                                           longitude: w1.longitude)
-                let location2 = CLLocation(latitude: w2.latitude,
-                                           longitude: w2.longitude)
-                return location.distance(from: location1) < location.distance(from: location2)
+        var min = waypoints.first!
+        for waypoint in waypoints {
+            let location1 = CLLocation(latitude: waypoint.latitude,
+                                       longitude: waypoint.longitude)
+            let location2 = CLLocation(latitude: min.latitude,
+                                       longitude: min.longitude)
+            if location.distance(from: location1) < location.distance(from: location2) {
+                min = waypoint
+            }
         }
+        return min
     }
 }
